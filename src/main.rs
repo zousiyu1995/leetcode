@@ -1,3 +1,3 @@
-mod p242_valid_anagram;
+// mod p349_intersection_of_two_arrays;
 
 fn main() {}
