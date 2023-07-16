@@ -1,7 +1,3 @@
-mod p541_reverse_string_ii;
+mod p151_reverse_words_in_a_string;
 
-fn main() {
-    for i in (0..10).step_by(2) {
-        println!("{:?}", i);
-    }
-}
+fn main() {}
