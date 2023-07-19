@@ -1,3 +1,3 @@
-mod p151_reverse_words_in_a_string;
+mod p3_longest_substring_without_repeating_characters;
 
 fn main() {}
