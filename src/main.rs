@@ -1,3 +1,3 @@
-mod p2089_find_target_indices_after_sorting_array;
+mod p208_move_zeroes;
 
 fn main() {}
