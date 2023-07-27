@@ -1,3 +1,3 @@
-mod p14_longest_common_prefix;
+mod p2545_sort_the_students_by_their_kth_score;
 
 fn main() {}
