@@ -1,20 +1,15 @@
-#[cfg(test)]
-mod tests {
-    use super::*;
+#[test]
+fn test() {
+    let nums1_1: Vec<i32> = vec![1, 2, 3];
+    let nums2_1: Vec<i32> = vec![2, 4, 6];
+    assert_eq!(
+        find_difference(nums1_1, nums2_1),
+        vec![vec![1, 3], vec![4, 6]]
+    );
 
-    #[test]
-    fn test() {
-        let nums1_1: Vec<i32> = vec![1, 2, 3];
-        let nums2_1: Vec<i32> = vec![2, 4, 6];
-        assert_eq!(
-            find_difference(nums1_1, nums2_1),
-            vec![vec![1, 3], vec![4, 6]]
-        );
-
-        let nums1_2: Vec<i32> = vec![1, 2, 3, 3];
-        let nums2_2: Vec<i32> = vec![1, 1, 2, 2];
-        assert_eq!(find_difference(nums1_2, nums2_2), vec![vec![3], vec![]]);
-    }
+    let nums1_2: Vec<i32> = vec![1, 2, 3, 3];
+    let nums2_2: Vec<i32> = vec![1, 1, 2, 2];
+    assert_eq!(find_difference(nums1_2, nums2_2), vec![vec![3], vec![]]);
 }
 
 pub fn find_difference(nums1: Vec<i32>, nums2: Vec<i32>) -> Vec<Vec<i32>> {
