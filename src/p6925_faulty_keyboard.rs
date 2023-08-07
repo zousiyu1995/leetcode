@@ -5,6 +5,7 @@ fn test() {
 }
 
 pub fn final_string(s: String) -> String {
+    // 双端队列
     use std::collections::VecDeque;
 
     let mut ans: VecDeque<char> = VecDeque::new();
