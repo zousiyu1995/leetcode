@@ -17,6 +17,7 @@ mod tests {
 
 use std::collections::HashSet;
 
+// 哈希集（hashset），一看到重复元素就应该想到hashset
 pub fn length_of_longest_substring(s: String) -> i32 {
     // 特殊情况
     if s.len() == 0 {
