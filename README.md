@@ -29,6 +29,7 @@ Written in `rust`.
 - [p150. evaluate-reverse-polish-notation 逆波兰表达式求值](./src/p150_evaluate_reverse_polish_notation.rs)
 - [p225. implement stack using queues 用队列实现栈](./src/p225_implement_stack_using_queues.rs)
 - [p232. implement queue using stacks 用栈实现队列](./src/p232_implement_queue_using_stacks.rs)
+- [p239. sliding window maximum 滑动窗口最大值](./src/p239_sliding_window_maximum.rs)
 
 ## 哈希表、哈希集
 
