@@ -26,6 +26,7 @@ Written in `rust`.
 
 - [p20. valid parentheses 有效的括号](./src/p20_valid_parentheses.rs)
 - [p32. longest valid parentheses 最长有效括号](./src/p32_longest_valid_parentheses.rs)
+- [p150. evaluate-reverse-polish-notation 逆波兰表达式求值](./src/p150_evaluate_reverse_polish_notation.rs)
 - [p225. implement stack using queues 用队列实现栈](./src/p225_implement_stack_using_queues.rs)
 - [p232. implement queue using stacks 用栈实现队列](./src/p232_implement_queue_using_stacks.rs)
 
