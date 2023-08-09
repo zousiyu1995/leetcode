@@ -19,3 +19,7 @@ Written in `rust`.
 
 - [p1. two sum 两数之和](./src/p1_two_sum.rs)
 - [p3. longest substring without repeating characters 无重复字符的最长子串](./src/p3_longest_substring_without_repeating_characters.rs)
+
+## 数学
+
+- [p1281. subtract the product and sum of digits of an integer 整数的各位积和之差](./src/p1281_subtract_the_product_and_sum_of_digits_of_an_integer.rs)
