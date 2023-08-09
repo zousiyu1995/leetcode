@@ -12,6 +12,7 @@ Written in `rust`.
 
 ## 栈、队列
 
+- [p225. implement stack using queues 用队列实现栈](./src/p225_implement_stack_using_queues.rs)
 - [p232. implement queue using stacks 用栈实现队列](./src/p232_implement_queue_using_stacks.rs)
 
 ## 哈希表、哈希集
