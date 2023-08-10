@@ -21,6 +21,7 @@ Written in `rust`.
 - [p14. longest common prefix 最长公共前缀](./src/p14_longest_common_prefix.rs)
 - [p26. find the index of the first occurrence in a string 找出字符串中第一个匹配项的下标](./src/p28_find_the_index_of_the_first_occurrence_in_a_string.rs)
 - [p125. valid palindrome 验证回文串](./src/p125_valid_palindrome.rs)
+- [p1507 reformat data 转变日期格式](./src/p1507_reformat_data.rs)
 
 ## 栈、队列
 
