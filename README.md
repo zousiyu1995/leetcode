@@ -36,6 +36,7 @@ Written in `rust`.
 - [p1. two sum 两数之和](./src/p1_two_sum.rs)
 - [p3. longest substring without repeating characters 无重复字符的最长子串](./src/p3_longest_substring_without_repeating_characters.rs)
 - [p13. roman to integer 罗马数字转整数](./src/p13_roman_to_integer.rs)
+- [p36 valid sudoku 有效的数独](./src/p36_valid_sudoku.rs)
 - [p136. single number 只出现一次的数字](./src/p136_single_number.rs)
 
 ## 数学
