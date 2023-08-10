@@ -13,6 +13,7 @@ Written in `rust`.
 - [p11. containter with most water 盛最多水的容器](./src/p11_container_with_most_water.rs)
 - [p15. 3sum 三数之和](./src/p15_3sum.rs)
 - [p26. remove duplicates from sorted array 删除有序数组中的重复项](./src/p26_remove_duplicates_from_sorted_array.rs)
+- [p27. remove element 移除元素](./src/p27_reomove_element.rs)
 - [p167. two sum ii input array is sorted 两数之和 II - 输入有序数组](./src/p167_two_sum_ii_input_array_is_sorted.rs)
 
 ## 字符串
@@ -20,6 +21,7 @@ Written in `rust`.
 - [p8. string to integer atoi 字符串转换整数（atoi）](./src/p8_string_to_integer_atoi.rs)
 - [p14. longest common prefix 最长公共前缀](./src/p14_longest_common_prefix.rs)
 - [p26. find the index of the first occurrence in a string 找出字符串中第一个匹配项的下标](./src/p28_find_the_index_of_the_first_occurrence_in_a_string.rs)
+- [p28. find the index of the first occurrence in a string 找出字符串中第一个匹配项的下标](./src/p28_find_the_index_of_the_first_occurrence_in_a_string.rs)
 - [p125. valid palindrome 验证回文串](./src/p125_valid_palindrome.rs)
 - [p1507 reformat data 转变日期格式](./src/p1507_reformat_data.rs)
 
@@ -31,6 +33,7 @@ Written in `rust`.
 - [p225. implement stack using queues 用队列实现栈](./src/p225_implement_stack_using_queues.rs)
 - [p232. implement queue using stacks 用栈实现队列](./src/p232_implement_queue_using_stacks.rs)
 - [p239. sliding window maximum 滑动窗口最大值](./src/p239_sliding_window_maximum.rs)
+- [p2810. faulty keyboard 故障键盘](./src/p2810_faulty_keyboard.rs)
 
 ## 哈希表、哈希集
 
@@ -44,4 +47,7 @@ Written in `rust`.
 
 - [p7. reverse integer 整数反转](./src/p7_reverse_integer.rs)
 - [p9. palindrome number 回文数](./src/p9_palindrome_number.rs)
+- [p59. spiral matrix ii 螺旋矩阵 II](./src/p59_spiral_matrix_ii.rs)
 - [p1281. subtract the product and sum of digits of an integer 整数的各位积和之差](./src/p1281_subtract_the_product_and_sum_of_digits_of_an_integer.rs)
+- [p2500. delete greatest value in each row 删除每行中的最大值](./src/p2500_delete_greatest_value_in_each_row.rs)
+- [p2544. alternating digit num 交替数字和](./src/p2544_alternating_digit_sum.rs)
