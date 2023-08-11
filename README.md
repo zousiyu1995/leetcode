@@ -49,5 +49,6 @@ Written in `rust`.
 - [p9. palindrome number 回文数](./src/p9_palindrome_number.rs)
 - [p59. spiral matrix ii 螺旋矩阵 II](./src/p59_spiral_matrix_ii.rs)
 - [p1281. subtract the product and sum of digits of an integer 整数的各位积和之差](./src/p1281_subtract_the_product_and_sum_of_digits_of_an_integer.rs)
+- [p1572 matrix diagonal sum 矩阵对角线元素的和](./src/p1572_matrix_diagonal_sum.rs)
 - [p2500. delete greatest value in each row 删除每行中的最大值](./src/p2500_delete_greatest_value_in_each_row.rs)
 - [p2544. alternating digit num 交替数字和](./src/p2544_alternating_digit_sum.rs)
