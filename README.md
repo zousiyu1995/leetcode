@@ -8,6 +8,8 @@ Written in `rust`.
 - [p35. search insert position 搜索插入位置](./src/p35_search_insert.rs)
 - [p69. sqrtx x的平方根](./src/p69_my_sqrt.rs)
 - [p278. first bad version 第一个错误的版本](./src/p278_first_bad_version.rs)
+- [p367. valid perfect square 有效的完全平方数](./src/p367_valid_perfect_square.rs)
+- [p374. guss number higher or lower 猜数字大小](./src/p374_guess_number_higher_or_lower.rs)
 
 ## 双指针
 
@@ -16,8 +18,9 @@ Written in `rust`.
 - [p26. remove duplicates from sorted array 删除有序数组中的重复项](./src/p26_remove_duplicates_from_sorted_array.rs)
 - [p27. remove element 移除元素](./src/p27_reomove_element.rs)
 - [p167. two sum ii input array is sorted 两数之和 II - 输入有序数组](./src/p167_two_sum_ii_input_array_is_sorted.rs)
-- [p209. minimum size subarray sum 长度最小的子数组](./src/p209_minimum_size_subarray_sum.rs)
+- [p209. minimum size subarray sum 长度最小的子数组](./src/p209_minimum_size_subarray_sum.rs) 滑移窗口
 - [p283. move zeros 移动零](./src/p283_move_zeroes.rs)
+- [p643 maximum average subarray i 子数组最大平均数 I](./src/p643_maximum_average_subarray_i.rs) 滑移窗口
 
 ## 前缀和
 
@@ -33,6 +36,8 @@ Written in `rust`.
 - [p151. reverse words in a string 反转字符串中的单词](./src/p151_reverse_words_in_a_string.rs)
 - [p344. reverse string 反转字符串](./src/p344_reverse_string.rs)
 - [p345. reverse vowels of a string 反转字符串中的元音字母](./src/p345_reverse_vowels_of_a_string.rs)
+- [p459. repeated substring pattern 重复的子字符串](./src/p459_repeated_substring_pattern.rs)
+- [p541. reverse string ii 反转字符串 II](./src/p541_reverse_string_ii.rs)
 - [p1507 reformat data 转变日期格式](./src/p1507_reformat_data.rs)
 
 ## 栈、队列
@@ -54,6 +59,8 @@ Written in `rust`.
 - [p136. single number 只出现一次的数字](./src/p136_single_number.rs)
 - [p242. valid anagram 有效的字母异位词](./src/p242_valid_anagram.rs)
 - [p290. word pattern 单词规律](./src/p290_word_pattern.rs)
+- [p349. intersection of two array 两个数组的交集](./src/p349_intersection_of_two_arrays.rs)
+- [p454. 4 sum ii 四数相加 II](./src/p454_4sum_ii.rs)
 
 ## 数学
 
@@ -61,7 +68,14 @@ Written in `rust`.
 - [p9. palindrome number 回文数](./src/p9_palindrome_number.rs)
 - [p59. spiral matrix ii 螺旋矩阵 II](./src/p59_spiral_matrix_ii.rs)
 - [p202. happy number 快乐数](./src/p202_happy_number.rs)
+- [p461. hamming distance 汉明距离](./src/p461_hanming_distance.rs)
 - [p1281. subtract the product and sum of digits of an integer 整数的各位积和之差](./src/p1281_subtract_the_product_and_sum_of_digits_of_an_integer.rs)
 - [p1572 matrix diagonal sum 矩阵对角线元素的和](./src/p1572_matrix_diagonal_sum.rs)
 - [p2500. delete greatest value in each row 删除每行中的最大值](./src/p2500_delete_greatest_value_in_each_row.rs)
 - [p2544. alternating digit num 交替数字和](./src/p2544_alternating_digit_sum.rs)
+
+## 贪心
+
+- [p605. can place flowers 种花问题](./src/p605_can_place_flowers.rs)
+
+## 动态规划
