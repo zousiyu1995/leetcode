@@ -7,6 +7,7 @@ Written in `rust`.
 - [p34. find first and last position of element in sorted array 在排序数组中查找元素的第一个和最后一个位置](./src/p34_find_first_and_last_position_of_element_in_sorted_array.rs)
 - [p35. search insert position 搜索插入位置](./src/p35_search_insert.rs)
 - [p69. sqrtx x的平方根](./src/p69_my_sqrt.rs)
+- [p278. first bad version 第一个错误的版本](./src/p278_first_bad_version.rs)
 
 ## 双指针
 
@@ -15,6 +16,12 @@ Written in `rust`.
 - [p26. remove duplicates from sorted array 删除有序数组中的重复项](./src/p26_remove_duplicates_from_sorted_array.rs)
 - [p27. remove element 移除元素](./src/p27_reomove_element.rs)
 - [p167. two sum ii input array is sorted 两数之和 II - 输入有序数组](./src/p167_two_sum_ii_input_array_is_sorted.rs)
+- [p209. minimum size subarray sum 长度最小的子数组](./src/p209_minimum_size_subarray_sum.rs)
+- [p283. move zeros 移动零](./src/p283_move_zeroes.rs)
+
+## 前缀和
+
+- [p238. product of array except self 除自身以外数组的乘积](./src/p238_product_of_array_except_self.rs)
 
 ## 字符串
 
@@ -23,6 +30,9 @@ Written in `rust`.
 - [p26. find the index of the first occurrence in a string 找出字符串中第一个匹配项的下标](./src/p28_find_the_index_of_the_first_occurrence_in_a_string.rs)
 - [p28. find the index of the first occurrence in a string 找出字符串中第一个匹配项的下标](./src/p28_find_the_index_of_the_first_occurrence_in_a_string.rs)
 - [p125. valid palindrome 验证回文串](./src/p125_valid_palindrome.rs)
+- [p151. reverse words in a string 反转字符串中的单词](./src/p151_reverse_words_in_a_string.rs)
+- [p344. reverse string 反转字符串](./src/p344_reverse_string.rs)
+- [p345. reverse vowels of a string 反转字符串中的元音字母](./src/p345_reverse_vowels_of_a_string.rs)
 - [p1507 reformat data 转变日期格式](./src/p1507_reformat_data.rs)
 
 ## 栈、队列
@@ -42,6 +52,8 @@ Written in `rust`.
 - [p13. roman to integer 罗马数字转整数](./src/p13_roman_to_integer.rs)
 - [p36 valid sudoku 有效的数独](./src/p36_valid_sudoku.rs)
 - [p136. single number 只出现一次的数字](./src/p136_single_number.rs)
+- [p242. valid anagram 有效的字母异位词](./src/p242_valid_anagram.rs)
+- [p290. word pattern 单词规律](./src/p290_word_pattern.rs)
 
 ## 数学
 
