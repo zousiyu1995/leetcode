@@ -48,6 +48,7 @@ Written in `rust`.
 - [p7. reverse integer 整数反转](./src/p7_reverse_integer.rs)
 - [p9. palindrome number 回文数](./src/p9_palindrome_number.rs)
 - [p59. spiral matrix ii 螺旋矩阵 II](./src/p59_spiral_matrix_ii.rs)
+- [p202. happy number 快乐数](./src/p202_happy_number.rs)
 - [p1281. subtract the product and sum of digits of an integer 整数的各位积和之差](./src/p1281_subtract_the_product_and_sum_of_digits_of_an_integer.rs)
 - [p1572 matrix diagonal sum 矩阵对角线元素的和](./src/p1572_matrix_diagonal_sum.rs)
 - [p2500. delete greatest value in each row 删除每行中的最大值](./src/p2500_delete_greatest_value_in_each_row.rs)
