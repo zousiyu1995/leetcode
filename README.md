@@ -18,9 +18,9 @@ Written in `rust`.
 - [p26. remove duplicates from sorted array 删除有序数组中的重复项](./src/p26_remove_duplicates_from_sorted_array.rs)
 - [p27. remove element 移除元素](./src/p27_reomove_element.rs)
 - [p167. two sum ii input array is sorted 两数之和 II - 输入有序数组](./src/p167_two_sum_ii_input_array_is_sorted.rs)
-- [p209. minimum size subarray sum 长度最小的子数组](./src/p209_minimum_size_subarray_sum.rs) 滑移窗口
+- [p209. minimum size subarray sum 长度最小的子数组](./src/p209_minimum_size_subarray_sum.rs) +滑移窗口
 - [p283. move zeros 移动零](./src/p283_move_zeroes.rs)
-- [p643 maximum average subarray i 子数组最大平均数 I](./src/p643_maximum_average_subarray_i.rs) 滑移窗口
+- [p643 maximum average subarray i 子数组最大平均数 I](./src/p643_maximum_average_subarray_i.rs) +滑移窗口
 
 ## 前缀和
 
@@ -34,6 +34,7 @@ Written in `rust`.
 - [p28. find the index of the first occurrence in a string 找出字符串中第一个匹配项的下标](./src/p28_find_the_index_of_the_first_occurrence_in_a_string.rs)
 - [p125. valid palindrome 验证回文串](./src/p125_valid_palindrome.rs)
 - [p151. reverse words in a string 反转字符串中的单词](./src/p151_reverse_words_in_a_string.rs)
+- [p187. repeated dna sequence 重复的DNA序列](./src/p187_repeated_dna_sequences.rs) +哈希表、滑移窗口
 - [p344. reverse string 反转字符串](./src/p344_reverse_string.rs)
 - [p345. reverse vowels of a string 反转字符串中的元音字母](./src/p345_reverse_vowels_of_a_string.rs)
 - [p459. repeated substring pattern 重复的子字符串](./src/p459_repeated_substring_pattern.rs)
