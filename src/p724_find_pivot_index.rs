@@ -19,6 +19,7 @@ pub fn pivot_index(nums: Vec<i32>) -> i32 {
     let sum: i32 = nums.iter().sum();
     let mut left: i32 = 0;
     for i in 0..nums.len() {
+        // 如果 left == right
         if left == sum - nums[i] - left {
             return i as i32;
         }
