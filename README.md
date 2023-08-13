@@ -38,6 +38,7 @@ Written in `rust`.
 - [p187. repeated dna sequence 重复的DNA序列](./src/p187_repeated_dna_sequences.rs) +哈希表、滑移窗口
 - [p344. reverse string 反转字符串](./src/p344_reverse_string.rs)
 - [p345. reverse vowels of a string 反转字符串中的元音字母](./src/p345_reverse_vowels_of_a_string.rs)
+- [p347. top k frequent elements 前k个高频元素](./src/p347_top_k_frequent_elements.rs)
 - [p459. repeated substring pattern 重复的子字符串](./src/p459_repeated_substring_pattern.rs)
 - [p541. reverse string ii 反转字符串 II](./src/p541_reverse_string_ii.rs)
 - [p1507 reformat data 转变日期格式](./src/p1507_reformat_data.rs)
