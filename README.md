@@ -19,9 +19,9 @@ Written in `rust`.
 - [p27. remove element 移除元素](./src/p27_reomove_element.rs)
 - [p88. merge sorted array 合并两个有序数组](./src/p88_merge_sorted_array.rs)
 - [p167. two sum ii input array is sorted 两数之和 II - 输入有序数组](./src/p167_two_sum_ii_input_array_is_sorted.rs)
-- [p209. minimum size subarray sum 长度最小的子数组](./src/p209_minimum_size_subarray_sum.rs) +滑移窗口
+- [p209. minimum size subarray sum 长度最小的子数组](./src/p209_minimum_size_subarray_sum.rs) (滑移窗口)
 - [p283. move zeros 移动零](./src/p283_move_zeroes.rs)
-- [p643 maximum average subarray i 子数组最大平均数 I](./src/p643_maximum_average_subarray_i.rs) +滑移窗口
+- [p643 maximum average subarray i 子数组最大平均数 I](./src/p643_maximum_average_subarray_i.rs) (滑移窗口)
 
 ## 前缀和
 
@@ -35,7 +35,7 @@ Written in `rust`.
 - [p28. find the index of the first occurrence in a string 找出字符串中第一个匹配项的下标](./src/p28_find_the_index_of_the_first_occurrence_in_a_string.rs)
 - [p125. valid palindrome 验证回文串](./src/p125_valid_palindrome.rs)
 - [p151. reverse words in a string 反转字符串中的单词](./src/p151_reverse_words_in_a_string.rs)
-- [p187. repeated dna sequence 重复的DNA序列](./src/p187_repeated_dna_sequences.rs) +哈希表、滑移窗口
+- [p187. repeated dna sequence 重复的DNA序列](./src/p187_repeated_dna_sequences.rs) (哈希表+滑移窗口)
 - [p344. reverse string 反转字符串](./src/p344_reverse_string.rs)
 - [p345. reverse vowels of a string 反转字符串中的元音字母](./src/p345_reverse_vowels_of_a_string.rs)
 - [p347. top k frequent elements 前k个高频元素](./src/p347_top_k_frequent_elements.rs)
@@ -47,7 +47,7 @@ Written in `rust`.
 
 - [p20. valid parentheses 有效的括号](./src/p20_valid_parentheses.rs)
 - [p32. longest valid parentheses 最长有效括号](./src/p32_longest_valid_parentheses.rs)
-- [p71. simplify path 简化路径](./src/p71_simplify_path.rs) +字符串
+- [p71. simplify path 简化路径](./src/p71_simplify_path.rs) (栈+字符串)
 - [p150. evaluate-reverse-polish-notation 逆波兰表达式求值](./src/p150_evaluate_reverse_polish_notation.rs)
 - [p225. implement stack using queues 用队列实现栈](./src/p225_implement_stack_using_queues.rs)
 - [p232. implement queue using stacks 用栈实现队列](./src/p232_implement_queue_using_stacks.rs)
@@ -81,6 +81,7 @@ Written in `rust`.
 
 ## 贪心
 
+- [p12. integer to roman 整数转罗马数字](./src/p12_integer_to_roman.rs) (贪心+哈希表)
 - [p605. can place flowers 种花问题](./src/p605_can_place_flowers.rs)
 
 ## 动态规划
