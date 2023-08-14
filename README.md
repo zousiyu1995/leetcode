@@ -14,6 +14,7 @@ Written in `rust`.
 
 ## 双指针
 
+- [p4. median of two sorted arrays 寻找两个正序数组的中位数](./src/p4_median_of_two_sorted_arrays.rs)
 - [p11. containter with most water 盛最多水的容器](./src/p11_container_with_most_water.rs)
 - [p15. 3sum 三数之和](./src/p15_3sum.rs)
 - [p26. remove duplicates from sorted array 删除有序数组中的重复项](./src/p26_remove_duplicates_from_sorted_array.rs)
