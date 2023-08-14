@@ -80,6 +80,7 @@ Written in `rust`.
 
 - [p7. reverse integer 整数反转](./src/p7_reverse_integer.rs)
 - [p9. palindrome number 回文数](./src/p9_palindrome_number.rs)
+- [p48. rotate image 旋转图像](./src/p48_rotate_image.rs) (矩阵)
 - [p59. spiral matrix ii 螺旋矩阵 II](./src/p59_spiral_matrix_ii.rs)
 - [p168. excel sheet column title Excel表列名称](./src/p168_excel_sheet_column_title.rs)
 - [p202. happy number 快乐数](./src/p202_happy_number.rs)
