@@ -82,6 +82,7 @@ Written in `rust`.
 - [p9. palindrome number 回文数](./src/p9_palindrome_number.rs)
 - [p48. rotate image 旋转图像](./src/p48_rotate_image.rs) (矩阵)
 - [p59. spiral matrix ii 螺旋矩阵 II](./src/p59_spiral_matrix_ii.rs)
+- [p73. set matrix zeros 矩阵置零](./src/p73_set_matrix_zeros.rs) (矩阵)
 - [p168. excel sheet column title Excel表列名称](./src/p168_excel_sheet_column_title.rs)
 - [p202. happy number 快乐数](./src/p202_happy_number.rs)
 - [p461. hamming distance 汉明距离](./src/p461_hanming_distance.rs)
