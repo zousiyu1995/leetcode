@@ -76,6 +76,7 @@ Written in `rust`.
 - [p1207. unique number of occurrences 独一无二的出现次数](./src/p1207_unique_number_of_occurrences.rs)
 - [p2367. number of arithmetic triplets 算术三元组的数目](./src/p2367_number_of_arithmetic_triplets.rs)
 - [p2395. find subarrays with equal sum 和相等的子数组](./src/p2395_find_subarrays_with_equal_sum.rs)
+- [p2682. find the losers of the circular game 找出转圈游戏输家](./src/p2682_find_the_losers_of_the_circular_game.rs) (哈希表+模拟)
 
 ## 数学
 
