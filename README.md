@@ -25,7 +25,7 @@ Written in `rust`.
 - [p283. move zeros 移动零](./src/p283_move_zeroes.rs)
 - [p643. maximum average subarray i 子数组最大平均数 I](./src/p643_maximum_average_subarray_i.rs) (滑移窗口)
 - [p713. subarray product less than k 乘积小于K的子数组](./src/p713_subarray_product_less_than_k.rs)
-- [977. squares of a sorted array 有序数组的平方](./src/p977_squares_of_a_sorted_array.rs)
+- [p977. squares of a sorted array 有序数组的平方](./src/p977_squares_of_a_sorted_array.rs)
 
 ## 前缀和
 
@@ -74,6 +74,9 @@ Written in `rust`.
 - [p349. intersection of two array 两个数组的交集](./src/p349_intersection_of_two_arrays.rs)
 - [p454. 4 sum ii 四数相加 II](./src/p454_4sum_ii.rs)
 - [p1207. unique number of occurrences 独一无二的出现次数](./src/p1207_unique_number_of_occurrences.rs)
+- [p2215. find the difference of two arrays 找出两数组的不同](./src/p2215_find_the_difference_of_two_arrays.rs)
+- [p2273. find resultant array after removing anagrams 移除字母异位词后的结果数组](./src/p2273_find_resultant_array_after_removing_anagrams.rs)
+- [p2341. maximum number of pairs in array 数组能形成多少数对](./src/p2341_maximum_number_of_pairs_in_array.rs)
 - [p2367. number of arithmetic triplets 算术三元组的数目](./src/p2367_number_of_arithmetic_triplets.rs)
 - [p2395. find subarrays with equal sum 和相等的子数组](./src/p2395_find_subarrays_with_equal_sum.rs)
 - [p2682. find the losers of the circular game 找出转圈游戏输家](./src/p2682_find_the_losers_of_the_circular_game.rs) (哈希表+模拟)
@@ -95,8 +98,11 @@ Written in `rust`.
 - [p1431. kids with the greatest number of candies 拥有最多糖果的孩子](./src/p1431_kids_with_the_greatest_number_of_candies.rs)
 - [p1486. xor operation in an array 数组异或操作](./src/p1486_xor_operation_in_an_array.rs)
 - [p1572. matrix diagonal sum 矩阵对角线元素的和](./src/p1572_matrix_diagonal_sum.rs)
+- [p2178. maximum split of positive even integers 拆分成最多数目的正偶数之和](./src/p2178_maximum_split_of_positive_even_integers.rs) (数学+贪心)
+- [p2352. equal row and column pairs 相等行列对](./src/p2352_equal_row_and_column_pairs.rs) (矩阵+哈希表)
 - [p2500. delete greatest value in each row 删除每行中的最大值](./src/p2500_delete_greatest_value_in_each_row.rs) (矩阵+排序)
 - [p2544. alternating digit num 交替数字和](./src/p2544_alternating_digit_sum.rs)
+- [p2545. sort the students by their kth score 根据第 K 场考试的分数排序](./src/p2545_sort_the_students_by_their_kth_score.rs) (矩阵+排序)
 
 ## 贪心
 
