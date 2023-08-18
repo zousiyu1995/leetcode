@@ -20,7 +20,7 @@ Written in `rust`.
 - [p26. remove duplicates from sorted array 删除有序数组中的重复项](./src/p26_remove_duplicates_from_sorted_array.rs)
 - [p27. remove element 移除元素](./src/p27_reomove_element.rs)
 - [p88. merge sorted array 合并两个有序数组](./src/p88_merge_sorted_array.rs)
-- [p167. two sum ii input array is sorted 两数之和 II - 输入有序数组](./src/p167_two_sum_ii_input_array_is_sorted.rs)
+- [p167. two sum ii input array is sorted 两数之和 II 输入有序数组](./src/p167_two_sum_ii_input_array_is_sorted.rs)
 - [p209. minimum size subarray sum 长度最小的子数组](./src/p209_minimum_size_subarray_sum.rs) (滑移窗口)
 - [p283. move zeros 移动零](./src/p283_move_zeroes.rs)
 - [p643. maximum average subarray i 子数组最大平均数 I](./src/p643_maximum_average_subarray_i.rs) (滑移窗口)
@@ -29,8 +29,10 @@ Written in `rust`.
 
 ## 前缀和
 
+- [p42. trapping rain water 接雨水](./src/p42_trapping_rain_water.rs) (前缀最大值)
 - [p238. product of array except self 除自身以外数组的乘积](./src/p238_product_of_array_except_self.rs)
 - [p724. find pivot index 寻找数组的中心下标](./src/p724_find_pivot_index.rs)
+- [p1749. maximum absolute sum of any subarray 任意子数组和的绝对值的最大值](./src/p1749_maximum_absolute_sum_of_any_subarray.rs)
 
 ## 字符串
 
@@ -49,6 +51,9 @@ Written in `rust`.
 - [p541. reverse string ii 反转字符串 II](./src/p541_reverse_string_ii.rs)
 - [p1507. reformat data 转变日期格式](./src/p1507_reformat_data.rs)
 - [p1657. determine if two strings are close 确定两个字符串是否接近](./src/p1657_determine_if_two_strings_are_close.rs) (哈希表)
+- [p1768. merge strings alternately 交替合并字符串](./src/p1768_merge_strings_alternately.rs)
+- [p1876. substrings of size three with distinct characters 长度为三且各字符不同的子字符串](./src/p1876_substrings_of_size_three_with_distinct_characters.rs)
+- [p2011. final value of variable after performing operations 执行操作后的变量值](./src/p2011_final_value_of_variable_after_performing_operations.rs) (模拟)
 
 ## 栈、队列
 
@@ -81,7 +86,7 @@ Written in `rust`.
 - [p2367. number of arithmetic triplets 算术三元组的数目](./src/p2367_number_of_arithmetic_triplets.rs)
 - [p2395. find subarrays with equal sum 和相等的子数组](./src/p2395_find_subarrays_with_equal_sum.rs)
 - [p2682. find the losers of the circular game 找出转圈游戏输家](./src/p2682_find_the_losers_of_the_circular_game.rs) (哈希表+模拟)
-- [p2815. max pair-sum-in-an-array](./src/p2815_max_pair_sum_in_an_array.rs)
+- [p2815. max pair sum in an array 数组中的最大数对和](./src/p2815_max_pair_sum_in_an_array.rs)
 
 ## 数学
 
@@ -112,3 +117,8 @@ Written in `rust`.
 - [p605. can place flowers 种花问题](./src/p605_can_place_flowers.rs)
 
 ## 动态规划
+
+## 其他
+
+- [p2089. find target indices after sorting array 找出数组排序后的目标下标](./src/p2089_find_target_indices_after_sorting_array.rs) (排序+遍历)
+- [p1822. sign of the product of an array 数组元素积的符号](./src/p1822_sign_of_the_product_of_an_array.rs) (遍历)
