@@ -34,6 +34,7 @@ Written in `rust`.
 
 ## 字符串
 
+- [p6. zigzag conversion N字形变换](./src/p6_zigzag_conversion.rs) (模拟 || 观察规律)
 - [p8. string to integer atoi 字符串转换整数（atoi）](./src/p8_string_to_integer_atoi.rs)
 - [p14. longest common prefix 最长公共前缀](./src/p14_longest_common_prefix.rs)
 - [p26. find the index of the first occurrence in a string 找出字符串中第一个匹配项的下标](./src/p28_find_the_index_of_the_first_occurrence_in_a_string.rs)
