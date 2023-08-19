@@ -106,6 +106,7 @@ Written in `rust`.
 - [p1486. xor operation in an array 数组异或操作](./src/p1486_xor_operation_in_an_array.rs)
 - [p1572. matrix diagonal sum 矩阵对角线元素的和](./src/p1572_matrix_diagonal_sum.rs)
 - [p2178. maximum split of positive even integers 拆分成最多数目的正偶数之和](./src/p2178_maximum_split_of_positive_even_integers.rs) (数学+贪心)
+- [p2235. add two integers 两整数相加](./src/p2235_add_two_integers.rs)
 - [p2352. equal row and column pairs 相等行列对](./src/p2352_equal_row_and_column_pairs.rs) (矩阵+哈希表)
 - [p2500. delete greatest value in each row 删除每行中的最大值](./src/p2500_delete_greatest_value_in_each_row.rs) (矩阵+排序)
 - [p2544. alternating digit num 交替数字和](./src/p2544_alternating_digit_sum.rs)
