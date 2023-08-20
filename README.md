@@ -27,9 +27,9 @@ Written in `rust`.
 - [p713. subarray product less than k 乘积小于K的子数组](./src/p713_subarray_product_less_than_k.rs)
 - [p977. squares of a sorted array 有序数组的平方](./src/p977_squares_of_a_sorted_array.rs)
 
-## 前缀和
+## 前缀和、后缀和
 
-- [p42. trapping rain water 接雨水](./src/p42_trapping_rain_water.rs) (前缀最大值)
+- [p42. trapping rain water 接雨水](./src/p42_trapping_rain_water.rs) (前缀最大值、后缀最大值)
 - [p238. product of array except self 除自身以外数组的乘积](./src/p238_product_of_array_except_self.rs)
 - [p724. find pivot index 寻找数组的中心下标](./src/p724_find_pivot_index.rs)
 - [p1749. maximum absolute sum of any subarray 任意子数组和的绝对值的最大值](./src/p1749_maximum_absolute_sum_of_any_subarray.rs)
