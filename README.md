@@ -34,6 +34,7 @@ Written in `rust`.
 - [p42. trapping rain water 接雨水](./src/p42_trapping_rain_water.rs) (前缀最大值、后缀最大值)
 - [p238. product of array except self 除自身以外数组的乘积](./src/p238_product_of_array_except_self.rs)
 - [p724. find pivot index 寻找数组的中心下标](./src/p724_find_pivot_index.rs)
+- [p1732. find the highest altitude 找到最高海拔](./src/p1732_find_the_highest_altitude.rs)
 - [p1749. maximum absolute sum of any subarray 任意子数组和的绝对值的最大值](./src/p1749_maximum_absolute_sum_of_any_subarray.rs)
 
 ## 字符串
@@ -107,6 +108,7 @@ Written in `rust`.
 - [p1431. kids with the greatest number of candies 拥有最多糖果的孩子](./src/p1431_kids_with_the_greatest_number_of_candies.rs)
 - [p1486. xor operation in an array 数组异或操作](./src/p1486_xor_operation_in_an_array.rs)
 - [p1572. matrix diagonal sum 矩阵对角线元素的和](./src/p1572_matrix_diagonal_sum.rs)
+- [p1689. partitioning into minimum number of deci-binary numbers 十-二进制数的最少数目](./src/p1689_partitioning_into_minimum_number_of_deci_binary_numbers.rs)
 - [p2178. maximum split of positive even integers 拆分成最多数目的正偶数之和](./src/p2178_maximum_split_of_positive_even_integers.rs) (数学+贪心)
 - [p2235. add two integers 两整数相加](./src/p2235_add_two_integers.rs)
 - [p2352. equal row and column pairs 相等行列对](./src/p2352_equal_row_and_column_pairs.rs) (矩阵+哈希表)
