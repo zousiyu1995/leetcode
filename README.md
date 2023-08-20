@@ -114,6 +114,10 @@ Written in `rust`.
 - [p2544. alternating digit num 交替数字和](./src/p2544_alternating_digit_sum.rs)
 - [p2545. sort the students by their kth score 根据第 K 场考试的分数排序](./src/p2545_sort_the_students_by_their_kth_score.rs) (矩阵+排序)
 
+## 树
+
+- [p2236. root equals sum of children 判断根结点是否等于子结点之和](./src/p2236_root_equals_sum_of_children.py) (二叉树)
+
 ## 贪心
 
 - [p12. integer to roman 整数转罗马数字](./src/p12_integer_to_roman.rs) (贪心+哈希表)
