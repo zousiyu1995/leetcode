@@ -14,8 +14,7 @@ pub fn is_acronym(words: Vec<String>, s: String) -> bool {
     }
 
     for (word, ch) in words.iter().zip(s.chars()) {
-        let word: Vec<char> = word.chars().collect();
-        if word[0] != ch {
+        if word.chars().nth(0).unwrap() != ch {
             return false;
         }
     }
