@@ -43,6 +43,7 @@ Written in `rust`.
 - [p167. two sum ii input array is sorted 两数之和 II 输入有序数组](./src/p167_two_sum_ii_input_array_is_sorted.rs)
 - [p209. minimum size subarray sum 长度最小的子数组](./src/p209_minimum_size_subarray_sum.rs) (滑移窗口)
 - [p283. move zeros 移动零](./src/p283_move_zeroes.rs)
+- [p443. string compression 压缩字符串](./src/p443_string_compression.rs) (双指针+字符串)
 - [p643. maximum average subarray i 子数组最大平均数 I](./src/p643_maximum_average_subarray_i.rs) (滑移窗口)
 - [p713. subarray product less than k 乘积小于K的子数组](./src/p713_subarray_product_less_than_k.rs)
 - [p977. squares of a sorted array 有序数组的平方](./src/p977_squares_of_a_sorted_array.rs)
