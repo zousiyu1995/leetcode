@@ -2,6 +2,8 @@
 
 Written in `rust`.
 
+[TOC]
+
 ## 二分查找
 
 - [p34. find first and last position of element in sorted array 在排序数组中查找元素的第一个和最后一个位置](./src/p34_find_first_and_last_position_of_element_in_sorted_array.rs) (二分查找经典题)
@@ -118,8 +120,11 @@ Written in `rust`.
 - [p2544. alternating digit num 交替数字和](./src/p2544_alternating_digit_sum.rs)
 - [p2545. sort the students by their kth score 根据第 K 场考试的分数排序](./src/p2545_sort_the_students_by_their_kth_score.rs) (矩阵+排序)
 
+## 递归
+
 ## 树
 
+- [p104. maximum depth of binary tree 二叉树的最大深度](./src/p104_maximum_depth_of_binary_tree.py) (二叉树+递归)
 - [p2236. root equals sum of children 判断根结点是否等于子结点之和](./src/p2236_root_equals_sum_of_children.py) (二叉树)
 
 ## 贪心
@@ -128,6 +133,8 @@ Written in `rust`.
 - [p605. can place flowers 种花问题](./src/p605_can_place_flowers.rs)
 
 ## 动态规划
+
+## 回溯
 
 ## 其他
 
