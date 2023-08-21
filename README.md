@@ -2,7 +2,23 @@
 
 Written in `rust`.
 
-[TOC]
+基本算法思想：枚举、模拟、剪枝、递归、分治、动态规划、贪心、回溯。
+
+- [My leetcode solutions](#my-leetcode-solutions)
+  - [二分查找](#二分查找)
+  - [双指针](#双指针)
+  - [前缀和、后缀和](#前缀和后缀和)
+  - [字符串](#字符串)
+  - [栈、队列](#栈队列)
+  - [哈希表、哈希集](#哈希表哈希集)
+  - [数学](#数学)
+  - [递归](#递归)
+  - [树](#树)
+  - [分治](#分治)
+  - [动态规划](#动态规划)
+  - [贪心](#贪心)
+  - [回溯](#回溯)
+  - [其他](#其他)
 
 ## 二分查找
 
@@ -122,19 +138,29 @@ Written in `rust`.
 
 ## 递归
 
+递归问题可以分解成原问题和子问题，原问题和子问题是相似的。从原问题到子问题的过程适合用递归来解决。
+
+子问题的规模比原问题小，从原问题分解为子问题称为**递**。不断递下去，总会由尽头，即到达递归的边界条件，此时直接返回它的答案，这称为**归**。
+
+写递归代码重要的是，把边界条件和非边界条件的逻辑写对。
+
 ## 树
 
 - [p104. maximum depth of binary tree 二叉树的最大深度](./src/p104_maximum_depth_of_binary_tree.py) (二叉树+递归)
 - [p2236. root equals sum of children 判断根结点是否等于子结点之和](./src/p2236_root_equals_sum_of_children.py) (二叉树)
+
+## 分治
+
+## 动态规划
 
 ## 贪心
 
 - [p12. integer to roman 整数转罗马数字](./src/p12_integer_to_roman.rs) (贪心+哈希表)
 - [p605. can place flowers 种花问题](./src/p605_can_place_flowers.rs)
 
-## 动态规划
-
 ## 回溯
+
+- [p17. letter-combinations-of-a-phone-number 电话号码的字母组合](./src/p17_letter_combinations_of_a_phone_number.rs) (经典题目)
 
 ## 其他
 
