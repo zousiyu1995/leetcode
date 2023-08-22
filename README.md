@@ -25,6 +25,7 @@ Written in `rust`.
 - [p34. find first and last position of element in sorted array 在排序数组中查找元素的第一个和最后一个位置](./src/p34_find_first_and_last_position_of_element_in_sorted_array.rs) (二分查找经典题)
 - [p35. search insert position 搜索插入位置](./src/p35_search_insert.rs)
 - [p69. sqrtx x的平方根](./src/p69_my_sqrt.rs)
+- [p153 find minimum in rotated sorted array 寻找旋转排序数组中的最小值](./src/p153_find_minimum_in_rotated_sorted_array.rs)
 - [p162. find peak element 寻找峰值](./src/p162_find_peak_element.rs)
 - [p278. first bad version 第一个错误的版本](./src/p278_first_bad_version.rs)
 - [p367. valid perfect square 有效的完全平方数](./src/p367_valid_perfect_square.rs)
