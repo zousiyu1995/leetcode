@@ -79,7 +79,7 @@ Written in `rust`.
 - [p1876. substrings of size three with distinct characters 长度为三且各字符不同的子字符串](./src/p1876_substrings_of_size_three_with_distinct_characters.rs)
 - [p2011. final value of variable after performing operations 执行操作后的变量值](./src/p2011_final_value_of_variable_after_performing_operations.rs) (模拟)
 - [p2337. move pieces to obtain a string 移动片段得到字符串](./src/p2337_move_pieces_to_obtain_a_string.rs)
-- [p7004. check if a string is an acronym of words 判别首字母缩略词](./src/p7004_check_if_a_string_is_an_acronym_of_words.rs)
+- [p2828. check if a string is an acronym of words 判别首字母缩略词](./src/p2828_check_if_a_string_is_an_acronym_of_words.rs)
 
 ## 栈、队列
 
