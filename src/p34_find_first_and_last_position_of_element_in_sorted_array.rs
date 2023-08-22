@@ -7,14 +7,14 @@ mod tests {
         let v1: Vec<i32> = vec![5, 7, 7, 8, 8, 8, 10, 12, 15];
         search_range(v1, 8);
 
-        // let v1: Vec<i32> = vec![5, 7, 7, 8, 8, 10];
-        // assert_eq!(search_range(v1, 8), vec![3, 4]);
+        let v1: Vec<i32> = vec![5, 7, 7, 8, 8, 10];
+        assert_eq!(search_range(v1, 8), vec![3, 4]);
 
-        // let v2: Vec<i32> = vec![5, 7, 7, 8, 8, 10];
-        // assert_eq!(search_range(v2, 6), vec![-1, -1]);
+        let v2: Vec<i32> = vec![5, 7, 7, 8, 8, 10];
+        assert_eq!(search_range(v2, 6), vec![-1, -1]);
 
-        // let v3: Vec<i32> = vec![];
-        // assert_eq!(search_range(v3, 0), vec![-1, -1])
+        let v3: Vec<i32> = vec![];
+        assert_eq!(search_range(v3, 0), vec![-1, -1])
     }
 }
 #[allow(unused)]
