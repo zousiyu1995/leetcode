@@ -46,6 +46,7 @@ Written in `rust`.
 - [p443. string compression 压缩字符串](./src/p443_string_compression.rs) (双指针+字符串)
 - [p643. maximum average subarray i 子数组最大平均数 I](./src/p643_maximum_average_subarray_i.rs) (滑移窗口)
 - [p713. subarray product less than k 乘积小于K的子数组](./src/p713_subarray_product_less_than_k.rs)
+- [p849. maximize distance to closest person 到最近的人的最大距离](./src/p849_maximize_distance_to_closest_person.rs)
 - [p977. squares of a sorted array 有序数组的平方](./src/p977_squares_of_a_sorted_array.rs)
 
 ## 前缀和、后缀和
