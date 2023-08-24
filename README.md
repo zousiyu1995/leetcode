@@ -109,6 +109,7 @@ Written in `rust`.
 - [p349. intersection of two array 两个数组的交集](./src/p349_intersection_of_two_arrays.rs)
 - [p454. 4 sum ii 四数相加 II](./src/p454_4sum_ii.rs)
 - [p1207. unique number of occurrences 独一无二的出现次数](./src/p1207_unique_number_of_occurrences.rs)
+- [p1267. count servers that communicate 统计参与通信的服务器](./src/p1267_count_servers_that_communicate.rs)
 - [p2215. find the difference of two arrays 找出两数组的不同](./src/p2215_find_the_difference_of_two_arrays.rs)
 - [p2273. find resultant array after removing anagrams 移除字母异位词后的结果数组](./src/p2273_find_resultant_array_after_removing_anagrams.rs)
 - [p2341. maximum number of pairs in array 数组能形成多少数对](./src/p2341_maximum_number_of_pairs_in_array.rs)
