@@ -28,6 +28,8 @@ Written in `rust`.
 - [p69. sqrtx x的平方根](./src/p69_my_sqrt.rs)
 - [p153 find minimum in rotated sorted array 寻找旋转排序数组中的最小值](./src/p153_find_minimum_in_rotated_sorted_array.rs)
 - [p162. find peak element 寻找峰值](./src/p162_find_peak_element.rs)
+- [p274. h index H指数](./src/p274_h_index.rs)
+- [p275 h index ii H指数 II](./src/p275_h_index_ii.rs)
 - [p278. first bad version 第一个错误的版本](./src/p278_first_bad_version.rs)
 - [p367. valid perfect square 有效的完全平方数](./src/p367_valid_perfect_square.rs)
 - [p374. guss number higher or lower 猜数字大小](./src/p374_guess_number_higher_or_lower.rs)
