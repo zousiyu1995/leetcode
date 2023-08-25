@@ -88,7 +88,6 @@ Written in `rust`.
 
 - [p20. valid parentheses 有效的括号](./src/p20_valid_parentheses.rs)
 - [p32. longest valid parentheses 最长有效括号](./src/p32_longest_valid_parentheses.rs)
-- [p49. group anagrams 字母异位词分组](./src/p49_group_anagrams.rs)
 - [p71. simplify path 简化路径](./src/p71_simplify_path.rs) (栈+字符串)
 - [p150. evaluate reverse polish notation 逆波兰表达式求值](./src/p150_evaluate_reverse_polish_notation.rs)
 - [p225. implement stack using queues 用队列实现栈](./src/p225_implement_stack_using_queues.rs)
@@ -104,6 +103,7 @@ Written in `rust`.
 - [p3. longest substring without repeating characters 无重复字符的最长子串](./src/p3_longest_substring_without_repeating_characters.rs)
 - [p13. roman to integer 罗马数字转整数](./src/p13_roman_to_integer.rs)
 - [p36. valid sudoku 有效的数独](./src/p36_valid_sudoku.rs)
+- [p49. group anagrams 字母异位词分组](./src/p49_group_anagrams.rs)
 - [p136. single number 只出现一次的数字](./src/p136_single_number.rs)
 - [p242. valid anagram 有效的字母异位词](./src/p242_valid_anagram.rs)
 - [p290. word pattern 单词规律](./src/p290_word_pattern.rs)
