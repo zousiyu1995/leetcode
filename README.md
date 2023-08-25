@@ -154,6 +154,7 @@ Written in `rust`.
 ## 树
 
 - [p104. maximum depth of binary tree 二叉树的最大深度](./src/p104_maximum_depth_of_binary_tree.py) (二叉树+递归)
+- [p1448. count good nodes in binary tree 统计二叉树中好节点的数目](./src/p1448_count_good_nodes_in_binary_tree.py) (二叉树+递归)
 - [p2236. root equals sum of children 判断根结点是否等于子结点之和](./src/p2236_root_equals_sum_of_children.py) (二叉树)
 
 ## 分治
