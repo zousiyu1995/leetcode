@@ -46,6 +46,7 @@ Written in `rust`.
 - [p88. merge sorted array 合并两个有序数组](./src/p88_merge_sorted_array.rs)
 - [p167. two sum ii input array is sorted 两数之和 II 输入有序数组](./src/p167_two_sum_ii_input_array_is_sorted.rs)
 - [p209. minimum size subarray sum 长度最小的子数组](./src/p209_minimum_size_subarray_sum.rs) (滑移窗口)
+- [p228. summary ranges 汇总区间](./src/p228_summary_ranges.rs) (滑移窗口)
 - [p283. move zeros 移动零](./src/p283_move_zeroes.rs)
 - [p443. string compression 压缩字符串](./src/p443_string_compression.rs) (双指针+字符串)
 - [p643. maximum average subarray i 子数组最大平均数 I](./src/p643_maximum_average_subarray_i.rs) (滑移窗口)
