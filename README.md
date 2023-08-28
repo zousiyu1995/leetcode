@@ -11,6 +11,7 @@ Written in `rust`.
   - [字符串](#字符串)
   - [栈、队列](#栈队列)
   - [哈希表、哈希集](#哈希表哈希集)
+  - [链表](#链表)
   - [数学](#数学)
   - [递归](#递归)
   - [树](#树)
@@ -120,6 +121,10 @@ Written in `rust`.
 - [p2395. find subarrays with equal sum 和相等的子数组](./src/p2395_find_subarrays_with_equal_sum.rs)
 - [p2682. find the losers of the circular game 找出转圈游戏输家](./src/p2682_find_the_losers_of_the_circular_game.rs) (哈希表+模拟)
 - [p2815. max pair sum in an array 数组中的最大数对和](./src/p2815_max_pair_sum_in_an_array.rs)
+
+## 链表
+
+- [p206 reverse linked list 反转链表](./src/p206_reverse_linked_list.rs)
 
 ## 数学
 
