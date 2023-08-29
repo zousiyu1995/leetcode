@@ -1,10 +1,10 @@
 #[test]
 fn test() {
-    let head: ListNode = ListNode::from([1, 2, 3, 4, 5]);
-    head.print();
+    let head = Some(Box::new(ListNode::from([1, 2, 3, 4, 5])));
+    head.as_ref().unwrap().print();
 
-    let rev_head: Option<Box<ListNode>> = reverse_list(Some(Box::new(head)));
-    rev_head.unwrap().print();
+    let rev_head = reverse_list(head);
+    rev_head.as_ref().unwrap().print();
 }
 
 use super::util::list_node::ListNode;
