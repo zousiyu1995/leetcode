@@ -1,13 +1,10 @@
 #[test]
 fn test() {
-    let mut l: ListNode = ListNode::new(1);
-    for i in 2..=5 {
-        l.push(i);
-    }
-    l.print();
+    let head: ListNode = ListNode::from([1, 2, 3, 4, 5]);
+    head.print();
 
-    let r: Option<Box<ListNode>> = reverse_list(Some(Box::new(l)));
-    r.unwrap().print();
+    let rev_head: Option<Box<ListNode>> = reverse_list(Some(Box::new(head)));
+    rev_head.unwrap().print();
 }
 
 use super::util::list_node::ListNode;
