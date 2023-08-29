@@ -34,7 +34,7 @@ impl ListNode {
         let mut tail: &ListNode = self;
         // 遍历节点，只要不为空
         while let Some(ref next) = tail.next {
-            vals.push(format!("{}", &tail.val));
+            vals.push(format!("{}", tail.val));
             tail = next;
         }
         vals.push(format!("{}", tail.val));
@@ -42,9 +42,25 @@ impl ListNode {
         println!("{}", vals.join(" -> "));
     }
 }
+
 // 从数组创建链表
-// impl<const N: usize> From<[i32; N]> for ListNode {
-//     // from [1, 2, 3, 4, 5]
-//     //  to   1->2->3->4->5
-//     fn from(array: [i32; N]) -> Self {}
-// }
+impl<const N: usize> From<[i32; N]> for ListNode {
+    // from [1, 2, 3, 4, 5]
+    //  to   1->2->3->4->5
+    fn from(array: [i32; N]) -> Self {
+        let mut head: ListNode = ListNode::new(array[0]);
+
+        // 从数组添加node
+        for val in array.iter().skip(1) {
+            let node: Option<Box<ListNode>> = Some(Box::new(ListNode::new(*val)));
+            let mut tail: &mut ListNode = &mut head;
+            // 遍历直到tail
+            while let Some(ref mut next) = tail.next {
+                tail = next;
+            }
+            tail.next = node;
+        }
+
+        head
+    }
+}
