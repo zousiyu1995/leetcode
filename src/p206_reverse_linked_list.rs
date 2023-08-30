@@ -45,7 +45,7 @@ pub fn reverse_list(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
 
     // 另一种写法，可读性不强
     while let Some(mut node) = cur {
-        cur = node.next.take(); // 移动cur到下一个节点
+        cur = node.next; // 移动cur到下一个节点
         node.next = pre; // 反转指向
         pre = Some(node); // 移动pre
     }
