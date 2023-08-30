@@ -1,8 +1,7 @@
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+from typing import Optional
+from util.list_node import ListNode
+
+
 def reverseBetween(
     self, head: Optional[ListNode], left: int, right: int
 ) -> Optional[ListNode]:
@@ -21,3 +20,14 @@ def reverseBetween(
     p0.next.next = cur
     p0.next = pre
     return dummy.next
+
+
+def main():
+    head = ListNode(1, None)
+    head.insert(2)
+    head.insert(3)
+    print(head)
+
+
+if __name__ == "__main__":
+    main()
