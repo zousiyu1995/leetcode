@@ -3,7 +3,7 @@ from util.list_node import ListNode
 
 
 def reverseBetween(
-    self, head: Optional[ListNode], left: int, right: int
+    head: Optional[ListNode], left: int, right: int
 ) -> Optional[ListNode]:
     p0 = dummy = ListNode(next=head)
     for _ in range(left - 1):
@@ -26,7 +26,12 @@ def main():
     head = ListNode(1, None)
     head.insert(2)
     head.insert(3)
+    head.insert(4)
+    head.insert(5)
     print(head)
+
+    rev_head = reverseBetween(head, 2, 4)
+    print(rev_head)
 
 
 if __name__ == "__main__":
