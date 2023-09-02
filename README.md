@@ -128,6 +128,7 @@ Written in `rust`.
 
 - [p92. reverse linked list ii 反转链表II](./src/p92_reverse_linked_list_ii.py)
 - [p206. reverse linked list 反转链表](./src/p206_reverse_linked_list.rs)
+- [p876. middle of the linked list链表的中间节点](./src/p876_middle_of_the_linked_list.py)
 
 ## 数学
 
