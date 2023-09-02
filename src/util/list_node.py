@@ -5,6 +5,7 @@ class ListNode:
         self.next = next
 
     def __str__(self) -> str:
+        # 不能打印有环链表
         vals = []
         tail = self
         while tail.next:
