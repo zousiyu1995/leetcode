@@ -127,9 +127,9 @@ Written in `rust`.
 不要用Rust写链表！
 
 - [p92. reverse linked list ii 反转链表II](./src/p92_reverse_linked_list_ii.py)
-- [p141. linked list cycle 环形链表](./src/p141_linked_list_cycle.py)
-- [p142. linked list cycle ii 环形链表 II](./src/p142_linked_list_cycle_ii.py)
-- [p143. reorder list 重排链表](./src/p143_reorder_list.py)
+- [p141. linked list cycle 环形链表](./src/p141_linked_list_cycle.py) (快慢指针)
+- [p142. linked list cycle ii 环形链表 II](./src/p142_linked_list_cycle_ii.py) (快慢指针)
+- [p143. reorder list 重排链表](./src/p143_reorder_list.py) (快慢指针)
 - [p206. reverse linked list 反转链表](./src/p206_reverse_linked_list.rs)
 - [p876. middle of the linked list 链表的中间节点](./src/p876_middle_of_the_linked_list.py)
 
