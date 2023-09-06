@@ -127,6 +127,7 @@ Written in `rust`.
 
 不要用Rust写链表！
 
+- [p19. remove nth node from end of list 删除链表的倒数第N个结点](./src/p19_remove_nth_node_from_end_of_list.py) (双指针)
 - [p92. reverse linked list ii 反转链表II](./src/p92_reverse_linked_list_ii.py)
 - [p141. linked list cycle 环形链表](./src/p141_linked_list_cycle.py) (快慢指针)
 - [p142. linked list cycle ii 环形链表 II](./src/p142_linked_list_cycle_ii.py) (快慢指针)
