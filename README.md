@@ -102,7 +102,7 @@ Written in `rust`.
 
 单调栈，用于解决Next Greater Number，
 
-- [496. next greater element 下一个更大元素 I](./src/p496_next_greater_element_i.rs) (单调栈)
+- [p496. next greater element 下一个更大元素 I](./src/p496_next_greater_element_i.rs) (单调栈+哈希表)
 - [p739. daily temperatures 每日温度](./src/p739_daily_temperatures.rs) (单调栈)
 
 ## 哈希表、哈希集
