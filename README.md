@@ -96,6 +96,7 @@ Written in `rust`.
 - [p225. implement stack using queues 用队列实现栈](./src/p225_implement_stack_using_queues.rs)
 - [p232. implement queue using stacks 用栈实现队列](./src/p232_implement_queue_using_stacks.rs)
 - [p239. sliding window maximum 滑动窗口最大值](./src/p239_sliding_window_maximum.rs)
+- [p739. daily temperatures 每日温度](./src/p739_daily_temperatures.rs) (单调栈)
 - [p1047. remove all adjacent duplicates in string 删除字符串中的所有相邻重复项](./src/p1047_remove_all_adjacent_duplicates_in_string.rs)
 - [p2810. faulty keyboard 故障键盘](./src/p2810_faulty_keyboard.rs)
 - [p2390. removing stars from a string 从字符串中移除星号](./src/p2390_removing_stars_from_a_string.rs)
