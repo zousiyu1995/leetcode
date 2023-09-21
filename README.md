@@ -10,6 +10,7 @@ Written in `rust`.
   - [前缀和、后缀和](#前缀和后缀和)
   - [字符串](#字符串)
   - [栈、队列](#栈队列)
+    - [单调栈](#单调栈)
   - [哈希表、哈希集](#哈希表哈希集)
   - [链表](#链表)
   - [数学](#数学)
@@ -100,9 +101,12 @@ Written in `rust`.
 - [p2810. faulty keyboard 故障键盘](./src/p2810_faulty_keyboard.rs)
 - [p2390. removing stars from a string 从字符串中移除星号](./src/p2390_removing_stars_from_a_string.rs)
 
-单调栈，用于解决Next Greater Number，
+### 单调栈
+
+单调栈用途不太广泛，只处理一种典型的问题，叫做Next Greater Element。
 
 - [p496. next greater element 下一个更大元素 I](./src/p496_next_greater_element_i.rs) (单调栈+哈希表)
+- [p503. next greater element ii 下一个更大元素 II](./src/p503_next_greater_element_ii.rs) (单调栈)
 - [p739. daily temperatures 每日温度](./src/p739_daily_temperatures.rs) (单调栈)
 
 ## 哈希表、哈希集
