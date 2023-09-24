@@ -105,6 +105,7 @@ Written in `rust`.
 
 单调栈用途不太广泛，只处理一种典型的问题，叫做Next Greater Element。
 
+- [p84. largest rectangle in histogram 柱状图中最大的矩形](./src/p84_largest_rectangle_in_histogram.rs) (单调栈)
 - [p496. next greater element 下一个更大元素 I](./src/p496_next_greater_element_i.rs) (单调栈+哈希表)
 - [p503. next greater element ii 下一个更大元素 II](./src/p503_next_greater_element_ii.rs) (单调栈)
 - [p739. daily temperatures 每日温度](./src/p739_daily_temperatures.rs) (单调栈)
