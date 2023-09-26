@@ -172,6 +172,7 @@ Written in `rust`.
 - [p2500. delete greatest value in each row 删除每行中的最大值](./src/p2500_delete_greatest_value_in_each_row.rs) (矩阵+排序)
 - [p2544. alternating digit num 交替数字和](./src/p2544_alternating_digit_sum.rs)
 - [p2545. sort the students by their kth score 根据第 K 场考试的分数排序](./src/p2545_sort_the_students_by_their_kth_score.rs) (矩阵+排序)
+- [p2582. pass the pillow 递枕头](./src/p2582_pass_the_pillow.rs)
 
 ## 递归
 
