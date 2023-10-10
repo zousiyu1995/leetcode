@@ -192,6 +192,8 @@ Written in `rust`.
 
 ## 动态规划
 
+- [p121. best time to buy and sell stock 买卖股票的最佳时机](./src/p121_best_time_to_buy_and_sell_stock.rs)
+
 ## 贪心
 
 - [p12. integer to roman 整数转罗马数字](./src/p12_integer_to_roman.rs) (贪心+哈希表)
