@@ -56,6 +56,7 @@ Written in `rust`.
 - [p713. subarray product less than k 乘积小于K的子数组](./src/p713_subarray_product_less_than_k.rs)
 - [p849. maximize distance to closest person 到最近的人的最大距离](./src/p849_maximize_distance_to_closest_person.rs)
 - [p977. squares of a sorted array 有序数组的平方](./src/p977_squares_of_a_sorted_array.rs)
+- [p2562. find the array concatenation value 找出数组的串联值](./src/p2562_find_the_array_concatenation_value.rs) (双指针+模拟)
 
 ## 前缀和、后缀和
 
@@ -192,6 +193,7 @@ Written in `rust`.
 
 ## 动态规划
 
+- [p53. maximum subarray 最大子数组和](./src/p53_maximum_subarray.rs)
 - [p121. best time to buy and sell stock 买卖股票的最佳时机](./src/p121_best_time_to_buy_and_sell_stock.rs)
 
 ## 贪心
