@@ -193,8 +193,13 @@ Written in `rust`.
 
 ## 动态规划
 
-- [p53. maximum subarray 最大子数组和](./src/p53_maximum_subarray.rs)
+动态规划要点：递推公式
+
+常见动态规划类型：基础、背包问题、打家劫舍、股票问题、子序列问题。
+
+- [p53. maximum subarray 最大子数组和](./src/p53_maximum_subarray.rs) (经典题目)
 - [p121. best time to buy and sell stock 买卖股票的最佳时机](./src/p121_best_time_to_buy_and_sell_stock.rs)
+- [p509. fibonacci number 斐波那契数](./src/p509_fibonacci_number.rs)
 
 ## 贪心
 
