@@ -118,7 +118,7 @@ Written in `rust`.
 - [p13. roman to integer 罗马数字转整数](./src/p13_roman_to_integer.rs)
 - [p36. valid sudoku 有效的数独](./src/p36_valid_sudoku.rs)
 - [p49. group anagrams 字母异位词分组](./src/p49_group_anagrams.rs)
-- [p136. single number 只出现一次的数字](./src/p136_single_number.rs)
+- [p136. single number 只出现一次的数字](./src/p136_single_number.rs) (哈希表、异或)
 - [p242. valid anagram 有效的字母异位词](./src/p242_valid_anagram.rs)
 - [p290. word pattern 单词规律](./src/p290_word_pattern.rs)
 - [p349. intersection of two array 两个数组的交集](./src/p349_intersection_of_two_arrays.rs)
