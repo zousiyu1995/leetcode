@@ -121,6 +121,7 @@ Written in `rust`.
 - [p136. single number 只出现一次的数字](./src/p136_single_number.rs) (哈希表、异或)
 - [p137. single number ii 只出现一次的数字 II](./src/p137_single_number_ii.rs) (哈希表、位运算)
 - [p242. valid anagram 有效的字母异位词](./src/p242_valid_anagram.rs)
+- [p260. single number iii 只出现一次的数字 III](./src/p260_single_number_iii.rs) (哈希表、位运算)
 - [p290. word pattern 单词规律](./src/p290_word_pattern.rs)
 - [p349. intersection of two array 两个数组的交集](./src/p349_intersection_of_two_arrays.rs)
 - [p454. 4 sum ii 四数相加 II](./src/p454_4sum_ii.rs)
