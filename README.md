@@ -10,6 +10,7 @@ Written in `rust`.
   - [前缀和、后缀和](#前缀和后缀和)
   - [字符串](#字符串)
   - [栈、队列](#栈队列)
+  - [堆](#堆)
     - [单调栈](#单调栈)
   - [哈希表、哈希集](#哈希表哈希集)
   - [链表](#链表)
@@ -101,6 +102,10 @@ Written in `rust`.
 - [p1047. remove all adjacent duplicates in string 删除字符串中的所有相邻重复项](./src/p1047_remove_all_adjacent_duplicates_in_string.rs)
 - [p2810. faulty keyboard 故障键盘](./src/p2810_faulty_keyboard.rs)
 - [p2390. removing stars from a string 从字符串中移除星号](./src/p2390_removing_stars_from_a_string.rs)
+
+## 堆
+
+- [p2530. maximal score after applying k operations 执行 K 次操作后的最大分数](./src/p2530_maximal_score_after_applying_k_operations.rs) (贪心+最大堆)
 
 ### 单调栈
 
