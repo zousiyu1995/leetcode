@@ -105,6 +105,8 @@ Written in `rust`.
 
 ## 堆
 
+优先队列一般使用堆来实现。
+
 - [p2530. maximal score after applying k operations 执行 K 次操作后的最大分数](./src/p2530_maximal_score_after_applying_k_operations.rs) (贪心+最大堆)
 
 ### 单调栈
