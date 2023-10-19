@@ -212,6 +212,7 @@ Written in `rust`.
 - [p70. climbing stairs 爬楼梯](./src/p70_climbing_stairs.rs)
 - [p121. best time to buy and sell stock 买卖股票的最佳时机](./src/p121_best_time_to_buy_and_sell_stock.rs)
 - [p509. fibonacci number 斐波那契数](./src/p509_fibonacci_number.rs)
+- [p746. min-cost-climbing-stairs 使用最小花费爬楼梯](./src/p746_min_cost_climbing_stairs.rs)
 
 ## 贪心
 
