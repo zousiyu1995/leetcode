@@ -228,3 +228,4 @@ Written in `rust`.
 - [p1822. sign of the product of an array 数组元素积的符号](./src/p1822_sign_of_the_product_of_an_array.rs) (遍历)
 - [p2089. find target indices after sorting array 找出数组排序后的目标下标](./src/p2089_find_target_indices_after_sorting_array.rs) (排序+遍历)
 - [p2240. number of ways to buy pens and pencils 买钢笔和铅笔的方案数](./src/p2240_number_of_ways_to_buy_pens_and_pencils.rs) (枚举)
+- [p2525. categorize box according to criteria 根据规则将箱子分类](./src/p2525_categorize_box_according_to_criteria.rs) (模拟)
