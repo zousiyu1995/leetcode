@@ -69,6 +69,7 @@ Written in `rust`.
 
 ## 字符串
 
+- [p5. longest palindromic substring 最长回文子串](./src/p5_longest_palindromic_substring.rs) (中心扩散法)
 - [p6. zigzag conversion N字形变换](./src/p6_zigzag_conversion.rs) (模拟 || 观察规律)
 - [p8. string to integer atoi 字符串转换整数（atoi）](./src/p8_string_to_integer_atoi.rs)
 - [p14. longest common prefix 最长公共前缀](./src/p14_longest_common_prefix.rs)
