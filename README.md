@@ -63,6 +63,7 @@ Written in `rust`.
 
 - [p42. trapping rain water 接雨水](./src/p42_trapping_rain_water.rs) (前缀最大值、后缀最大值)
 - [p238. product of array except self 除自身以外数组的乘积](./src/p238_product_of_array_except_self.rs)
+- [p523. continuous subarray sum 连续的子数组和](./src/p523_continuous_subarray_sum.rs) (前缀和+哈希表，经典题)
 - [p724. find pivot index 寻找数组的中心下标](./src/p724_find_pivot_index.rs)
 - [p1480. running sum of 1d array 一维数组的动态和](./src/p1480_running_sum_of_1d_array.rs) (前缀和)
 - [p1732. find the highest altitude 找到最高海拔](./src/p1732_find_the_highest_altitude.rs)
