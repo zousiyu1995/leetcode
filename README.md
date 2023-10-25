@@ -130,6 +130,7 @@ Written in `rust`.
 - [p3. longest substring without repeating characters 无重复字符的最长子串](./src/p3_longest_substring_without_repeating_characters.rs)
 - [p13. roman to integer 罗马数字转整数](./src/p13_roman_to_integer.rs)
 - [p36. valid sudoku 有效的数独](./src/p36_valid_sudoku.rs)
+- [p41. first missing positive 缺失的第一个正数](./src/p41_first_missing_positive.rs) (哈希表)
 - [p49. group anagrams 字母异位词分组](./src/p49_group_anagrams.rs)
 - [p136. single number 只出现一次的数字](./src/p136_single_number.rs) (哈希表、异或)
 - [p137. single number ii 只出现一次的数字 II](./src/p137_single_number_ii.rs) (哈希表、位运算)
