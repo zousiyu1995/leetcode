@@ -189,6 +189,7 @@ Written in `rust`.
 - [p2235. add two integers 两整数相加](./src/p2235_add_two_integers.rs)
 - [p2352. equal row and column pairs 相等行列对](./src/p2352_equal_row_and_column_pairs.rs) (矩阵+哈希表)
 - [p2500. delete greatest value in each row 删除每行中的最大值](./src/p2500_delete_greatest_value_in_each_row.rs) (矩阵+排序)
+- [p2520. count the digits that divide a number 统计能整除数字的位数](./src/p2520_count_the_digits_that_divide_a_number.rs) (取余)
 - [p2544. alternating digit num 交替数字和](./src/p2544_alternating_digit_sum.rs)
 - [p2545. sort the students by their kth score 根据第 K 场考试的分数排序](./src/p2545_sort_the_students_by_their_kth_score.rs) (矩阵+排序)
 - [p2582. pass the pillow 递枕头](./src/p2582_pass_the_pillow.rs)
@@ -220,7 +221,7 @@ Written in `rust`.
 - [p70. climbing stairs 爬楼梯](./src/p70_climbing_stairs.rs)
 - [p121. best time to buy and sell stock 买卖股票的最佳时机](./src/p121_best_time_to_buy_and_sell_stock.rs)
 - [p509. fibonacci number 斐波那契数](./src/p509_fibonacci_number.rs)
-- [p746. min-cost-climbing-stairs 使用最小花费爬楼梯](./src/p746_min_cost_climbing_stairs.rs)
+- [p746. min cost climbing stairs 使用最小花费爬楼梯](./src/p746_min_cost_climbing_stairs.rs)
 
 ## 贪心
 
@@ -229,7 +230,7 @@ Written in `rust`.
 
 ## 回溯
 
-- [p17. letter-combinations-of-a-phone-number 电话号码的字母组合](./src/p17_letter_combinations_of_a_phone_number.rs) (经典题目)
+- [p17. letter combinations of a phone number 电话号码的字母组合](./src/p17_letter_combinations_of_a_phone_number.rs) (经典题目)
 
 ## 其他
 
