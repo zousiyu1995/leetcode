@@ -68,6 +68,7 @@ Written in `rust`.
 - [p525. contiguous array 连续数组](./src/p525_contiguous_array.rs) (前缀和+哈希表，经典题)
 - [p724. find pivot index 寻找数组的中心下标](./src/p724_find_pivot_index.rs)
 - [p1480. running sum of 1d array 一维数组的动态和](./src/p1480_running_sum_of_1d_array.rs) (前缀和)
+- [p1685. sum of absolute differences in a sorted array 有序数组中差绝对值之和](./src/p1685_sum_of_absolute_differences_in_a_sorted_array.rs) (前缀和+后缀和)
 - [p1732. find the highest altitude 找到最高海拔](./src/p1732_find_the_highest_altitude.rs)
 - [p1749. maximum absolute sum of any subarray 任意子数组和的绝对值的最大值](./src/p1749_maximum_absolute_sum_of_any_subarray.rs)
 
