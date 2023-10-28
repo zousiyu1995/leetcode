@@ -115,6 +115,7 @@ Written in `rust`.
 优先队列一般使用堆来实现。
 
 - [p2530. maximal score after applying k operations 执行 K 次操作后的最大分数](./src/p2530_maximal_score_after_applying_k_operations.rs) (贪心+大顶堆)
+- [p2558. take gifts from the richest pile 从数量最多的堆取走礼物](./src/p2558_take_gifts_from_the_richest_pile.rs) (大顶堆)
 
 ### 单调栈
 
