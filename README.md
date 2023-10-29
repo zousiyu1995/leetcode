@@ -158,6 +158,7 @@ Written in `rust`.
 - [p2605. form smallest number from two digit arrays 从两个数字数组里生成最小数字](./src/p2605_form_smallest_number_from_two_digit_arrays.rs)
 - [p2682. find the losers of the circular game 找出转圈游戏输家](./src/p2682_find_the_losers_of_the_circular_game.rs) (哈希表+模拟)
 - [p2815. max pair sum in an array 数组中的最大数对和](./src/p2815_max_pair_sum_in_an_array.rs)
+- [p2869. minimum operations to collect elements 收集元素的最少操作次数](./src/p2869_minimum_operations_to_collect_elements.rs) (哈希集)
 
 ## 链表
 
