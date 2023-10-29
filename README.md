@@ -66,6 +66,7 @@ Written in `rust`.
 - [p303. range sum query immutable 区域和检索——数组不可变](./src/p303_range_sum_query_immutable.rs)
 - [p523. continuous subarray sum 连续的子数组和](./src/p523_continuous_subarray_sum.rs) (前缀和+哈希表，经典题)
 - [p525. contiguous array 连续数组](./src/p525_contiguous_array.rs) (前缀和+哈希表，经典题)
+- [p560. subarray sum equals k 和为K的子数组](./src/p560_subarray_sum_equals_k.rs) (前缀和+哈希表，经典题)
 - [p724. find pivot index 寻找数组的中心下标](./src/p724_find_pivot_index.rs)
 - [p1480. running sum of 1d array 一维数组的动态和](./src/p1480_running_sum_of_1d_array.rs) (前缀和)
 - [p1685. sum of absolute differences in a sorted array 有序数组中差绝对值之和](./src/p1685_sum_of_absolute_differences_in_a_sorted_array.rs) (前缀和+后缀和)
