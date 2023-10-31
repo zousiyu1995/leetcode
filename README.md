@@ -104,6 +104,7 @@ Written in `rust`.
 - [p32. longest valid parentheses 最长有效括号](./src/p32_longest_valid_parentheses.rs)
 - [p71. simplify path 简化路径](./src/p71_simplify_path.rs) (栈+字符串)
 - [p150. evaluate reverse polish notation 逆波兰表达式求值](./src/p150_evaluate_reverse_polish_notation.rs)
+- [p155. min stack 最小栈](./src/p155_min_stack.rs)
 - [p225. implement stack using queues 用队列实现栈](./src/p225_implement_stack_using_queues.rs)
 - [p232. implement queue using stacks 用栈实现队列](./src/p232_implement_queue_using_stacks.rs)
 - [p239. sliding window maximum 滑动窗口最大值](./src/p239_sliding_window_maximum.rs)
