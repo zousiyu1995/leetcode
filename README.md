@@ -187,6 +187,7 @@ Written in `rust`.
 - [p73. set matrix zeros 矩阵置零](./src/p73_set_matrix_zeros.rs) (矩阵)
 - [p74. search a 2d matrix 搜索二维矩阵](./src/p74_search_a_2d_matrix.rs) (矩阵+二分搜索)
 - [p168. excel sheet column title Excel表列名称](./src/p168_excel_sheet_column_title.rs)
+- [p189. rotate array 轮转数组](./src/p189_rotate_array.rs) (数学，数组)
 - [p202. happy number 快乐数](./src/p202_happy_number.rs)
 - [p223. rectangle area 矩形面积](./src/p223_rectangle_area.rs) (几何)
 - [p263. ugly number 丑数](./src/p263_ugly_number.rs) (数学，对循环的理解)
