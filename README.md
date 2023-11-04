@@ -92,6 +92,7 @@ Written in `rust`.
 - [p1507. reformat data 转变日期格式](./src/p1507_reformat_data.rs)
 - [p1657. determine if two strings are close 确定两个字符串是否接近](./src/p1657_determine_if_two_strings_are_close.rs) (哈希表)
 - [p1768. merge strings alternately 交替合并字符串](./src/p1768_merge_strings_alternately.rs)
+- [p1869. longer contiguous segments of ones than zeros 哪种连续子字符串更长](./src/p1869_longer_contiguous_segments_of_ones_than_zeros.rs)
 - [p1876. substrings of size three with distinct characters 长度为三且各字符不同的子字符串](./src/p1876_substrings_of_size_three_with_distinct_characters.rs)
 - [p2011. final value of variable after performing operations 执行操作后的变量值](./src/p2011_final_value_of_variable_after_performing_operations.rs) (模拟)
 - [p2337. move pieces to obtain a string 移动片段得到字符串](./src/p2337_move_pieces_to_obtain_a_string.rs)
