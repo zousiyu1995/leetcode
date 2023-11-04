@@ -189,6 +189,7 @@ Written in `rust`.
 - [p168. excel sheet column title Excel表列名称](./src/p168_excel_sheet_column_title.rs)
 - [p202. happy number 快乐数](./src/p202_happy_number.rs)
 - [p223. rectangle area 矩形面积](./src/p223_rectangle_area.rs) (几何)
+- [p326. power of three 3的幂](./src/p326_power_of_three.rs) (数学、理解循环)
 - [p461. hamming distance 汉明距离](./src/p461_hanming_distance.rs)
 - [p1071. greatest common divisor of strings 字符串的最大公因子](./src/p1071_greatest_common_divisor_of_strings.rs)
 - [p1281. subtract the product and sum of digits of an integer 整数的各位积和之差](./src/p1281_subtract_the_product_and_sum_of_digits_of_an_integer.rs)
