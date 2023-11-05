@@ -242,6 +242,7 @@ Written in `rust`.
 
 - [p12. integer to roman 整数转罗马数字](./src/p12_integer_to_roman.rs) (贪心+哈希表)
 - [p122. best time to buy and sell stock ii 买卖股票的最佳时机 II](./src/p122_best_time_to_buy_and_sell_stock_ii.rs) (贪心)
+- [p135. candy 分发糖果](./src/p135_candy.rs)
 - [p455. assign candy 分发饼干](./src/p455_assign_cookies.rs)
 - [p605. can place flowers 种花问题](./src/p605_can_place_flowers.rs)
 
