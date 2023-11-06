@@ -144,6 +144,7 @@ Written in `rust`.
 - [p49. group anagrams 字母异位词分组](./src/p49_group_anagrams.rs)
 - [p136. single number 只出现一次的数字](./src/p136_single_number.rs) (哈希表、异或)
 - [p137. single number ii 只出现一次的数字 II](./src/p137_single_number_ii.rs) (哈希表、位运算)
+- [p229. majority elemnet ii 多数元素II](./src/p229_majority_element_ii.rs) (哈希表)
 - [p242. valid anagram 有效的字母异位词](./src/p242_valid_anagram.rs)
 - [p260. single number iii 只出现一次的数字 III](./src/p260_single_number_iii.rs) (哈希表、位运算)
 - [p268. missing number 丢失的数字](./src/p268_missing_number.rs) (数学、哈希集)
