@@ -15,6 +15,7 @@ Written in `rust`.
   - [哈希表、哈希集](#哈希表哈希集)
   - [链表](#链表)
   - [数学](#数学)
+    - [位运算](#位运算)
   - [递归](#递归)
   - [树](#树)
   - [分治](#分治)
@@ -210,6 +211,10 @@ Written in `rust`.
 - [p2545. sort the students by their kth score 根据第 K 场考试的分数排序](./src/p2545_sort_the_students_by_their_kth_score.rs) (矩阵+排序)
 - [p2582. pass the pillow 递枕头](./src/p2582_pass_the_pillow.rs)
 - [p2652. sum multiples 倍数求和](./src/p2652_sum_multiples.rs)
+
+### 位运算
+
+- [p318. maximum product of word lengths 最大单词长度乘积](./src/p318_maximum_product_of_word_lengths.rs) (位运算)
 
 ## 递归
 
