@@ -121,6 +121,7 @@ Written in `rust`.
 优先队列一般使用堆来实现。
 
 - [p215. kth-largest-element-in-an-array 数组中的第K个最大元素](./src/p215_kth_largest_element_in_an_array.rs) (大顶堆)
+- [p264. ugly number ii 丑数 II](./src/p264_ugly_number_ii.rs) (小顶堆)
 - [p1962. remove stones to minimize the total 移除石子使总数最小](./src/p1962_remove_stones_to_minimize_the_total.rs) (大顶堆)
 - [p2208. minimum operations to halve array sum 将数组和减半的最少操作次数](./src/p2208_minimum_operations_to_halve_array_sum.rs) (大顶堆)
 - [p2233. maximum product after k increments K次增加后的最大成绩](./src/p2233_maximum_product_after_k_increments.rs) (小顶堆)
