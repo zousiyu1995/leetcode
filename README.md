@@ -234,6 +234,8 @@ Written in `rust`.
 
 ## 分治
 
+- [p50. Pow(x, n)](./src/p50_powx_n.rs)
+
 ## 动态规划
 
 动态规划要点：递推公式
