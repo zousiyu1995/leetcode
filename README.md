@@ -266,3 +266,4 @@ Written in `rust`.
 - [p2089. find target indices after sorting array 找出数组排序后的目标下标](./src/p2089_find_target_indices_after_sorting_array.rs) (排序+遍历)
 - [p2240. number of ways to buy pens and pencils 买钢笔和铅笔的方案数](./src/p2240_number_of_ways_to_buy_pens_and_pencils.rs) (枚举)
 - [p2525. categorize box according to criteria 根据规则将箱子分类](./src/p2525_categorize_box_according_to_criteria.rs) (模拟)
+- [p2609. find the longest balanced substring of a binary string 最长平衡子字符串](./src/p2609_find_the_longest_balanced_substring_of_a_binary_string.rs) (模拟)
