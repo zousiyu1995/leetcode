@@ -39,6 +39,7 @@ Written in `rust`.
 - [p374. guss number higher or lower 猜数字大小](./src/p374_guess_number_higher_or_lower.rs)
 - [p704. binary search 二分查找](./src/p704_binary_search.rs)
 - [p852. peak index in a mountain array 山脉数组的峰顶索引](./src/p852_peak_index_in_a_mountain_array.rs)
+- [p2300. successful pairs of spells and potions 咒语和药水的成功对数](./src/p2300_successful_pairs_of_spells_and_potions.rs)
 
 ## 双指针
 
