@@ -1,33 +1,34 @@
 #[test]
 fn test() {
-    // assert_eq!(
-    //     erase_overlap_intervals(
-    //         vec![[1, 2], [2, 3], [3, 4], [1, 3]]
-    //             .iter_mut()
-    //             .map(|x| x.to_vec())
-    //             .collect()
-    //     ),
-    //     1
-    // );
+    assert_eq!(
+        erase_overlap_intervals(
+            vec![[1, 2], [2, 3], [3, 4], [1, 3]]
+                .iter_mut()
+                .map(|x| x.to_vec())
+                .collect()
+        ),
+        1
+    );
 
-    // assert_eq!(
-    //     erase_overlap_intervals(
-    //         vec![[1, 2], [1, 2], [1, 2]]
-    //             .iter_mut()
-    //             .map(|x| x.to_vec())
-    //             .collect()
-    //     ),
-    //     2
-    // );
-    // assert_eq!(
-    //     erase_overlap_intervals(
-    //         vec![[1, 2], [2, 3]]
-    //             .iter_mut()
-    //             .map(|x| x.to_vec())
-    //             .collect()
-    //     ),
-    //     0
-    // );
+    assert_eq!(
+        erase_overlap_intervals(
+            vec![[1, 2], [1, 2], [1, 2]]
+                .iter_mut()
+                .map(|x| x.to_vec())
+                .collect()
+        ),
+        2
+    );
+
+    assert_eq!(
+        erase_overlap_intervals(
+            vec![[1, 2], [2, 3]]
+                .iter_mut()
+                .map(|x| x.to_vec())
+                .collect()
+        ),
+        0
+    );
     assert_eq!(
         erase_overlap_intervals(
             vec![[1, 100], [11, 22], [1, 11], [2, 12]]
