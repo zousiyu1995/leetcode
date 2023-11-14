@@ -258,6 +258,7 @@ Written in `rust`.
 - [p452. minimum number of arrows to burst balloons 用最少数量的箭引爆气球](./src/p452_minimum_number_of_arrows_to_burst_balloons.rs) (经典)
 - [p455. assign candy 分发饼干](./src/p455_assign_cookies.rs)
 - [p605. can place flowers 种花问题](./src/p605_can_place_flowers.rs)
+- [p763. partition labels 划分字母区间](./src/p763_partition_labels.rs) (贪心+哈希表)
 
 ## 回溯
 
