@@ -214,6 +214,7 @@ Written in `rust`.
 - [p2545. sort the students by their kth score 根据第 K 场考试的分数排序](./src/p2545_sort_the_students_by_their_kth_score.rs) (矩阵+排序)
 - [p2582. pass the pillow 递枕头](./src/p2582_pass_the_pillow.rs)
 - [p2652. sum multiples 倍数求和](./src/p2652_sum_multiples.rs)
+- [p2656. maximum sum with exactly k elements K个元素的最大和](./src/p2656_maximum_sum_with_exactly_k_elements.rs) (简单题)
 
 ### 位运算
 
