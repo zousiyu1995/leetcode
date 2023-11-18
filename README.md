@@ -162,6 +162,7 @@ Written in `rust`.
 - [p2215. find the difference of two arrays 找出两数组的不同](./src/p2215_find_the_difference_of_two_arrays.rs)
 - [p2273. find resultant array after removing anagrams 移除字母异位词后的结果数组](./src/p2273_find_resultant_array_after_removing_anagrams.rs)
 - [p2341. maximum number of pairs in array 数组能形成多少数对](./src/p2341_maximum_number_of_pairs_in_array.rs)
+- [p2342. max sum of a pair with equal sum of digits 数位和相等数对的最大和](./src/p2342_max_sum_of_a_pair_with_equal_sum_of_digits.rs) (哈希表+最大堆)
 - [p2367. number of arithmetic triplets 算术三元组的数目](./src/p2367_number_of_arithmetic_triplets.rs)
 - [p2395. find subarrays with equal sum 和相等的子数组](./src/p2395_find_subarrays_with_equal_sum.rs)
 - [p2605. form smallest number from two digit arrays 从两个数字数组里生成最小数字](./src/p2605_form_smallest_number_from_two_digit_arrays.rs)
