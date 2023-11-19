@@ -20,6 +20,8 @@ fn test() {
     assert_eq!(merge(vec![vec![1, 3]]), vec![vec![1, 3]]);
 }
 
+// https://leetcode.cn/problems/merge-intervals/
+
 pub fn merge(intervals: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
     let mut intervals: Vec<Vec<i32>> = intervals;
     // 按左端点排序
