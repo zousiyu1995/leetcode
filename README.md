@@ -149,6 +149,7 @@ Written in `rust`.
 - [p36. valid sudoku 有效的数独](./src/p36_valid_sudoku.rs)
 - [p41. first missing positive 缺失的第一个正数](./src/p41_first_missing_positive.rs) (哈希表)
 - [p49. group anagrams 字母异位词分组](./src/p49_group_anagrams.rs)
+- [p128. longest consecutive sequence 最长连续序列](./src/p128_longest_consecutive_sequence.rs) (经典题目)
 - [p136. single number 只出现一次的数字](./src/p136_single_number.rs) (哈希表、异或)
 - [p137. single number ii 只出现一次的数字 II](./src/p137_single_number_ii.rs) (哈希表、位运算)
 - [p229. majority elemnet ii 多数元素II](./src/p229_majority_element_ii.rs) (哈希表)
