@@ -188,6 +188,7 @@ Written in `rust`.
 - [p160. intersection of two linked lists 相交链表](./src/p160_intersection_of_two_linked_lists.py) (哈希表、双指针)
 - [p206. reverse linked list 反转链表](./src/p206_reverse_linked_list.rs)
 - [p237. delete node in a linked list 删除链表中的节点](./src/p237_delete_node_in_a_linked_list.py)
+- [p234. palindrome linked list 回文链表](./src/p234_palindrome_linked_list.py) (双指针)
 - [p876. middle of the linked list 链表的中间节点](./src/p876_middle_of_the_linked_list.py)
 
 ## 数学
