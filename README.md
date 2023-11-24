@@ -62,6 +62,7 @@ Written in `rust`.
 - [p977. squares of a sorted array 有序数组的平方](./src/p977_squares_of_a_sorted_array.rs)
 - [p986. interval list intersections 区间列表的交集](./src/p986_interval_list_intersections.rs) (双指针，经典题目)
 - [p2562. find the array concatenation value 找出数组的串联值](./src/p2562_find_the_array_concatenation_value.rs) (双指针+模拟)
+- [p2824. count pairs whose sum is less than target 统计和小于目标的下标对数目](./src/p2824_count_pairs_whose_sum_is_less_than_target.py) (排序+双指针)
 
 ## 前缀和、后缀和
 
@@ -161,6 +162,7 @@ Written in `rust`.
 - [p454. 4 sum ii 四数相加 II](./src/p454_4sum_ii.rs)
 - [p1207. unique number of occurrences 独一无二的出现次数](./src/p1207_unique_number_of_occurrences.rs)
 - [p1267. count servers that communicate 统计参与通信的服务器](./src/p1267_count_servers_that_communicate.rs)
+- [p1410. html entity parser HTML 实体解析器](./src/p1410_html_entity_parser.rs)
 - [p1726. tuple with same product 同积元组](./src/p1726_tuple_with_same_product.rs) (哈希表+组合数学)
 - [p2103. rings and rods 环和杆](./src/p2103_rings_and_rods.rs) (哈希表+字符串)
 - [p2215. find the difference of two arrays 找出两数组的不同](./src/p2215_find_the_difference_of_two_arrays.rs)
@@ -179,6 +181,7 @@ Written in `rust`.
 不要用Rust写链表！
 
 - [p19. remove nth node from end of list 删除链表的倒数第N个结点](./src/p19_remove_nth_node_from_end_of_list.py) (双指针)
+- [p21. merge two sorted lists 合并两个有序链表](./src/p21_merge_two_sorted_lists.py)
 - [p82. remove duplicates from sorted list ii 删除排序链表中的重复元素 II](./src/p82_remove_duplicates_from_sorted_list_ii.py)
 - [p83. remove duplicates from sorted list 删除排序链表中的重复元素](./src/p83_remove_duplicates_from_sorted_list.py)
 - [p92. reverse linked list ii 反转链表II](./src/p92_reverse_linked_list_ii.py)
