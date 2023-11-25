@@ -87,6 +87,7 @@ Written in `rust`.
 - [p14. longest common prefix 最长公共前缀](./src/p14_longest_common_prefix.rs)
 - [p26. find the index of the first occurrence in a string 找出字符串中第一个匹配项的下标](./src/p28_find_the_index_of_the_first_occurrence_in_a_string.rs)
 - [p28. find the index of the first occurrence in a string 找出字符串中第一个匹配项的下标](./src/p28_find_the_index_of_the_first_occurrence_in_a_string.rs)
+- [p58. length of last word 最后一个单词的长度](./src/p58_length_of_last_word.py)
 - [p125. valid palindrome 验证回文串](./src/p125_valid_palindrome.rs)
 - [p151. reverse words in a string 反转字符串中的单词](./src/p151_reverse_words_in_a_string.rs)
 - [p187. repeated dna sequence 重复的DNA序列](./src/p187_repeated_dna_sequences.rs) (哈希表+滑移窗口)
