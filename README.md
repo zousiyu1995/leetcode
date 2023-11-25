@@ -6,7 +6,7 @@ Written in `rust`.
 
 - [My leetcode solutions](#my-leetcode-solutions)
   - [二分查找](#二分查找)
-  - [双指针](#双指针)
+  - [双指针、滑移窗口](#双指针滑移窗口)
   - [前缀和、后缀和](#前缀和后缀和)
   - [字符串](#字符串)
   - [栈、队列](#栈队列)
@@ -41,7 +41,7 @@ Written in `rust`.
 - [p852. peak index in a mountain array 山脉数组的峰顶索引](./src/p852_peak_index_in_a_mountain_array.rs)
 - [p2300. successful pairs of spells and potions 咒语和药水的成功对数](./src/p2300_successful_pairs_of_spells_and_potions.rs)
 
-## 双指针
+## 双指针、滑移窗口
 
 - [p4. median of two sorted arrays 寻找两个正序数组的中位数](./src/p4_median_of_two_sorted_arrays.rs)
 - [p11. containter with most water 盛最多水的容器](./src/p11_container_with_most_water.rs)
@@ -55,6 +55,7 @@ Written in `rust`.
 - [p209. minimum size subarray sum 长度最小的子数组](./src/p209_minimum_size_subarray_sum.rs) (滑移窗口)
 - [p228. summary ranges 汇总区间](./src/p228_summary_ranges.rs) (滑移窗口)
 - [p283. move zeros 移动零](./src/p283_move_zeroes.rs)
+- [p438. find all anagrams in a string 找到字符串中所有字母异位词](./src/p438_find_all_anagrams_in_a_string.rs) (哈希表+滑移窗口)
 - [p443. string compression 压缩字符串](./src/p443_string_compression.rs) (双指针+字符串)
 - [p643. maximum average subarray i 子数组最大平均数 I](./src/p643_maximum_average_subarray_i.rs) (滑移窗口)
 - [p713. subarray product less than k 乘积小于K的子数组](./src/p713_subarray_product_less_than_k.rs)
