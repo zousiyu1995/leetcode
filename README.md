@@ -268,6 +268,7 @@ Written in `rust`.
 - [p12. integer to roman 整数转罗马数字](./src/p12_integer_to_roman.rs) (贪心+哈希表)
 - [p122. best time to buy and sell stock ii 买卖股票的最佳时机 II](./src/p122_best_time_to_buy_and_sell_stock_ii.rs) (贪心)
 - [p135. candy 分发糖果](./src/p135_candy.rs)
+- [p406. queue reconstruction by height 根据身高重建队列](./src/p406_queue_reconstruction_by_height.rs) (排序+贪心，经典题目)
 - [p435. non overlapping intervals 无重叠区间](./src/p435_non_overlapping_intervals.rs) (经典)
 - [p452. minimum number of arrows to burst balloons 用最少数量的箭引爆气球](./src/p452_minimum_number_of_arrows_to_burst_balloons.rs) (经典)
 - [p455. assign candy 分发饼干](./src/p455_assign_cookies.rs)
