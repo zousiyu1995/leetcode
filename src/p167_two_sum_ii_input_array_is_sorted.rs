@@ -5,12 +5,15 @@ fn test() {
     assert_eq!(two_sum(vec![-1, 0], -1), vec![1, 2]);
 }
 
-// 对撞双指针
-// 关键是有序。每次将 max 和 min 相加，如果 > target，说明 max 和数组内其他任何元素相加 > target，去掉 max
-// 如果 < target，说明 min 和数组内其他任何元素相加 < target，去掉 min
-// 如果 = target，显然就是答案
+// 对撞双指针，关键是有序
+// 每次将max和min相加
+// 如果>target，说明max和数组内其他任何元素相加>target，去掉max
+// 如果<target，说明min和数组内其他任何元素相加<target，去掉min
+// 如果=target，显然就是答案
 pub fn two_sum(numbers: Vec<i32>, target: i32) -> Vec<i32> {
-    let (mut l, mut r): (usize, usize) = (0, numbers.len() - 1);
+    let mut l: usize = 0;
+    let mut r: usize = numbers.len() - 1;
+
     while l < r {
         let sum: i32 = numbers[l] + numbers[r];
         if sum > target {
