@@ -40,15 +40,44 @@ mod method2 {
         let mut p1: i32 = m - 1; // 指向 nums1
         let mut p2: i32 = n - 1; // 指向 nums2
 
-        // 倒序枚举 nums2
+        // 倒序枚举nums2，逻辑是无论如何nums2都要被复制完，外层循环次数就是nums2的大小
         while p2 >= 0 {
-            // 倒序枚举 nums1，并且枚举的元素必须大于 nums2 中枚举的元素
+            // 倒序枚举nums1，并且枚举的元素必须大于nums2中枚举的元素
             while p1 >= 0 && nums1[p1 as usize] > nums2[p2 as usize] {
                 nums1.swap(p as usize, p1 as usize);
                 p -= 1;
                 p1 -= 1;
             }
             // 否则
+            nums1[p as usize] = nums2[p2 as usize];
+            p -= 1;
+            p2 -= 1;
+        }
+    }
+}
+
+// 和method2一个思路，换一种写法
+mod method3 {
+    #[allow(unused)]
+    pub fn merge(nums1: &mut Vec<i32>, m: i32, nums2: &mut Vec<i32>, n: i32) {
+        let mut p: i32 = m + n - 1; // 指向要填入元素的位置
+        let mut p1: i32 = m - 1; // 指向 nums1
+        let mut p2: i32 = n - 1; // 指向 nums2
+
+        while p1 >= 0 && p2 >= 0 {
+            if nums1[p1 as usize] > nums2[p2 as usize] {
+                nums1[p as usize] = nums1[p1 as usize];
+                p -= 1;
+                p1 -= 1;
+            } else {
+                nums1[p as usize] = nums2[p2 as usize];
+                p -= 1;
+                p2 -= 1;
+            }
+        }
+
+        // 如果nums1没有被复制完，不用管；如果nums2没有被复制完，继续复制
+        while p2 >= 0 {
             nums1[p as usize] = nums2[p2 as usize];
             p -= 1;
             p2 -= 1;
