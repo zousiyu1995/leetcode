@@ -2,8 +2,6 @@
 
 Written in `rust`.
 
-基本算法思想：枚举、模拟、剪枝、递归、分治、动态规划、贪心、回溯。
-
 - [My leetcode solutions](#my-leetcode-solutions)
   - [二分查找](#二分查找)
   - [双指针、滑移窗口](#双指针滑移窗口)
@@ -27,9 +25,10 @@ Written in `rust`.
 ## 二分查找
 
 - [p33. search in rotated sorted array 搜索旋转排序数组](./src/p33_search_in_rotated_sorted_array.rs) (经典题目)
-- [p34. find first and last position of element in sorted array 在排序数组中查找元素的第一个和最后一个位置](./src/p34_find_first_and_last_position_of_element_in_sorted_array.rs) (二分查找经典题)
+- [p34. find first and last position of element in sorted array 在排序数组中查找元素的第一个和最后一个位置](./src/p34_find_first_and_last_position_of_element_in_sorted_array.rs) (经典题目)
 - [p35. search insert position 搜索插入位置](./src/p35_search_insert.rs)
 - [p69. sqrtx x的平方根](./src/p69_my_sqrt.rs)
+- [p81. search in rotated sorted array ii 搜索旋转排序数组 II](./src/p81_search_in_rotated_sorted_array_ii.rs) (经典题目)
 - [p153. find minimum in rotated sorted array 寻找旋转排序数组中的最小值](./src/p153_find_minimum_in_rotated_sorted_array.rs)
 - [p162. find peak element 寻找峰值](./src/p162_find_peak_element.rs)
 - [p274. h index H指数](./src/p274_h_index.rs)
@@ -37,6 +36,7 @@ Written in `rust`.
 - [p278. first bad version 第一个错误的版本](./src/p278_first_bad_version.rs)
 - [p367. valid perfect square 有效的完全平方数](./src/p367_valid_perfect_square.rs)
 - [p374. guss number higher or lower 猜数字大小](./src/p374_guess_number_higher_or_lower.rs)
+- [p540. single element in a sorted array 有序数组中的单一元素](./src/p540_single_element_in_a_sorted_array.rs)
 - [p704. binary search 二分查找](./src/p704_binary_search.rs)
 - [p852. peak index in a mountain array 山脉数组的峰顶索引](./src/p852_peak_index_in_a_mountain_array.rs)
 - [p2300. successful pairs of spells and potions 咒语和药水的成功对数](./src/p2300_successful_pairs_of_spells_and_potions.rs)
@@ -60,6 +60,7 @@ Written in `rust`.
 - [p443. string compression 压缩字符串](./src/p443_string_compression.rs) (双指针+字符串)
 - [p633. sum of square numbers 平方数之和](./src/p633_sum_of_square_numbers.rs) (双指针，和p167类似)
 - [p643. maximum average subarray i 子数组最大平均数 I](./src/p643_maximum_average_subarray_i.rs) (滑移窗口)
+- [p680. valid palindrome ii 验证回文串 II](./src/p680_valid_palindrome_ii.rs) (双指针，经典)
 - [p713. subarray product less than k 乘积小于K的子数组](./src/p713_subarray_product_less_than_k.rs)
 - [p849. maximize distance to closest person 到最近的人的最大距离](./src/p849_maximize_distance_to_closest_person.rs)
 - [p977. squares of a sorted array 有序数组的平方](./src/p977_squares_of_a_sorted_array.rs)
@@ -90,7 +91,7 @@ Written in `rust`.
 - [p26. find the index of the first occurrence in a string 找出字符串中第一个匹配项的下标](./src/p28_find_the_index_of_the_first_occurrence_in_a_string.rs)
 - [p28. find the index of the first occurrence in a string 找出字符串中第一个匹配项的下标](./src/p28_find_the_index_of_the_first_occurrence_in_a_string.rs)
 - [p58. length of last word 最后一个单词的长度](./src/p58_length_of_last_word.py)
-- [p125. valid palindrome 验证回文串](./src/p125_valid_palindrome.rs)
+- [p125. valid palindrome 验证回文串](./src/p125_valid_palindrome.rs) (双指针)
 - [p151. reverse words in a string 反转字符串中的单词](./src/p151_reverse_words_in_a_string.rs)
 - [p187. repeated dna sequence 重复的DNA序列](./src/p187_repeated_dna_sequences.rs) (哈希表+滑移窗口)
 - [p344. reverse string 反转字符串](./src/p344_reverse_string.rs)
@@ -127,9 +128,7 @@ Written in `rust`.
 
 ## 堆
 
-优先队列一般使用堆来实现。
-
-- [p215. kth-largest-element-in-an-array 数组中的第K个最大元素](./src/p215_kth_largest_element_in_an_array.rs) (大顶堆)
+- [p215. kth largest element in an array 数组中的第K个最大元素](./src/p215_kth_largest_element_in_an_array.rs) (大顶堆)
 - [p264. ugly number ii 丑数 II](./src/p264_ugly_number_ii.rs) (小顶堆)
 - [p1962. remove stones to minimize the total 移除石子使总数最小](./src/p1962_remove_stones_to_minimize_the_total.rs) (大顶堆)
 - [p2208. minimum operations to halve array sum 将数组和减半的最少操作次数](./src/p2208_minimum_operations_to_halve_array_sum.rs) (大顶堆)
@@ -236,12 +235,6 @@ Written in `rust`.
 
 ## 递归
 
-递归问题可以分解成原问题和子问题，原问题和子问题是相似的。从原问题到子问题的过程适合用递归来解决。
-
-子问题的规模比原问题小，从原问题分解为子问题称为**递**。不断递下去，总会由尽头，即到达递归的边界条件，此时直接返回它的答案，这称为**归**。
-
-写递归代码重要的是，把边界条件和非边界条件的逻辑写对。
-
 ## 树
 
 - [p104. maximum depth of binary tree 二叉树的最大深度](./src/p104_maximum_depth_of_binary_tree.py) (二叉树+递归)
@@ -253,10 +246,6 @@ Written in `rust`.
 - [p50. Pow(x, n)](./src/p50_powx_n.rs)
 
 ## 动态规划
-
-动态规划要点：递推公式
-
-常见动态规划类型：基础、背包问题、打家劫舍、股票问题、子序列问题。
 
 - [p53. maximum subarray 最大子数组和](./src/p53_maximum_subarray.rs) (经典题目)
 - [p70. climbing stairs 爬楼梯](./src/p70_climbing_stairs.rs)
@@ -286,5 +275,6 @@ Written in `rust`.
 - [p1822. sign of the product of an array 数组元素积的符号](./src/p1822_sign_of_the_product_of_an_array.rs) (遍历)
 - [p2089. find target indices after sorting array 找出数组排序后的目标下标](./src/p2089_find_target_indices_after_sorting_array.rs) (排序+遍历)
 - [p2240. number of ways to buy pens and pencils 买钢笔和铅笔的方案数](./src/p2240_number_of_ways_to_buy_pens_and_pencils.rs) (枚举)
+- [p2303. calculate amount paid in taxes 计算应缴税款总额](./src/p2303_calculate_amount_paid_in_taxes.rs) (模拟)
 - [p2525. categorize box according to criteria 根据规则将箱子分类](./src/p2525_categorize_box_according_to_criteria.rs) (模拟)
 - [p2609. find the longest balanced substring of a binary string 最长平衡子字符串](./src/p2609_find_the_longest_balanced_substring_of_a_binary_string.rs) (模拟)
