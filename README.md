@@ -5,14 +5,15 @@ Written in `rust`.
 - [My leetcode solutions](#my-leetcode-solutions)
   - [二分查找](#二分查找)
   - [双指针、滑移窗口](#双指针滑移窗口)
-  - [前缀和、后缀和](#前缀和后缀和)
+  - [前缀和、后缀和、差分](#前缀和后缀和差分)
   - [字符串](#字符串)
   - [栈、队列](#栈队列)
-  - [堆](#堆)
     - [单调栈](#单调栈)
+  - [堆](#堆)
   - [哈希表、哈希集](#哈希表哈希集)
   - [链表](#链表)
   - [数学](#数学)
+    - [矩阵](#矩阵)
     - [位运算](#位运算)
   - [递归](#递归)
   - [树](#树)
@@ -65,10 +66,12 @@ Written in `rust`.
 - [p849. maximize distance to closest person 到最近的人的最大距离](./src/p849_maximize_distance_to_closest_person.rs)
 - [p977. squares of a sorted array 有序数组的平方](./src/p977_squares_of_a_sorted_array.rs)
 - [p986. interval list intersections 区间列表的交集](./src/p986_interval_list_intersections.rs) (双指针，经典题目)
+- [p1423. maximum points you can obtain from cards 可获得的最大点数](./src/p1423_maximum_points_you_can_obtain_from_cards.rs) (滑移窗口+前缀和)
+- [p1456. maximum number of vowels in a substring of given length 定长子串中元音的最大数目] (滑移窗口+哈希表)
 - [p2562. find the array concatenation value 找出数组的串联值](./src/p2562_find_the_array_concatenation_value.rs) (双指针+模拟)
 - [p2824. count pairs whose sum is less than target 统计和小于目标的下标对数目](./src/p2824_count_pairs_whose_sum_is_less_than_target.py) (排序+双指针)
 
-## 前缀和、后缀和
+## 前缀和、后缀和、差分
 
 - [p42. trapping rain water 接雨水](./src/p42_trapping_rain_water.rs) (前缀最大值、后缀最大值)
 - [p238. product of array except self 除自身以外数组的乘积](./src/p238_product_of_array_except_self.rs)
@@ -126,6 +129,15 @@ Written in `rust`.
 - [p2810. faulty keyboard 故障键盘](./src/p2810_faulty_keyboard.rs)
 - [p2390. removing stars from a string 从字符串中移除星号](./src/p2390_removing_stars_from_a_string.rs)
 
+### 单调栈
+
+单调栈用途不太广泛，只处理一种典型的问题，叫做Next Greater Element。
+
+- [p84. largest rectangle in histogram 柱状图中最大的矩形](./src/p84_largest_rectangle_in_histogram.rs) (单调栈)
+- [p496. next greater element 下一个更大元素 I](./src/p496_next_greater_element_i.rs) (单调栈+哈希表)
+- [p503. next greater element ii 下一个更大元素 II](./src/p503_next_greater_element_ii.rs) (单调栈)
+- [p739. daily temperatures 每日温度](./src/p739_daily_temperatures.rs) (单调栈)
+
 ## 堆
 
 - [p215. kth largest element in an array 数组中的第K个最大元素](./src/p215_kth_largest_element_in_an_array.rs) (大顶堆)
@@ -135,15 +147,6 @@ Written in `rust`.
 - [p2233. maximum product after k increments K次增加后的最大成绩](./src/p2233_maximum_product_after_k_increments.rs) (小顶堆)
 - [p2530. maximal score after applying k operations 执行 K 次操作后的最大分数](./src/p2530_maximal_score_after_applying_k_operations.rs) (贪心+大顶堆)
 - [p2558. take gifts from the richest pile 从数量最多的堆取走礼物](./src/p2558_take_gifts_from_the_richest_pile.rs) (大顶堆)
-
-### 单调栈
-
-单调栈用途不太广泛，只处理一种典型的问题，叫做Next Greater Element。
-
-- [p84. largest rectangle in histogram 柱状图中最大的矩形](./src/p84_largest_rectangle_in_histogram.rs) (单调栈)
-- [p496. next greater element 下一个更大元素 I](./src/p496_next_greater_element_i.rs) (单调栈+哈希表)
-- [p503. next greater element ii 下一个更大元素 II](./src/p503_next_greater_element_ii.rs) (单调栈)
-- [p739. daily temperatures 每日温度](./src/p739_daily_temperatures.rs) (单调栈)
 
 ## 哈希表、哈希集
 
@@ -162,6 +165,7 @@ Written in `rust`.
 - [p268. missing number 丢失的数字](./src/p268_missing_number.rs) (数学、哈希集)
 - [p290. word pattern 单词规律](./src/p290_word_pattern.rs)
 - [p349. intersection of two array 两个数组的交集](./src/p349_intersection_of_two_arrays.rs)
+- [p448. find all numbers disappeared in an array 找到所有数组中消失的数字](./src/p448_find_all_numbers_disappeared_in_an_array.rs) (原地哈希)
 - [p454. 4 sum ii 四数相加 II](./src/p454_4sum_ii.rs)
 - [p1207. unique number of occurrences 独一无二的出现次数](./src/p1207_unique_number_of_occurrences.rs)
 - [p1267. count servers that communicate 统计参与通信的服务器](./src/p1267_count_servers_that_communicate.rs)
@@ -201,10 +205,7 @@ Written in `rust`.
 
 - [p7. reverse integer 整数反转](./src/p7_reverse_integer.rs)
 - [p9. palindrome number 回文数](./src/p9_palindrome_number.rs)
-- [p48. rotate image 旋转图像](./src/p48_rotate_image.rs) (矩阵)
 - [p59. spiral matrix ii 螺旋矩阵 II](./src/p59_spiral_matrix_ii.rs)
-- [p73. set matrix zeros 矩阵置零](./src/p73_set_matrix_zeros.rs) (矩阵)
-- [p74. search a 2d matrix 搜索二维矩阵](./src/p74_search_a_2d_matrix.rs) (矩阵+二分搜索)
 - [p168. excel sheet column title Excel表列名称](./src/p168_excel_sheet_column_title.rs)
 - [p189. rotate array 轮转数组](./src/p189_rotate_array.rs) (数学，数组)
 - [p202. happy number 快乐数](./src/p202_happy_number.rs)
@@ -220,14 +221,21 @@ Written in `rust`.
 - [p1689. partitioning into minimum number of deci-binary numbers 十-二进制数的最少数目](./src/p1689_partitioning_into_minimum_number_of_deci_binary_numbers.rs)
 - [p2178. maximum split of positive even integers 拆分成最多数目的正偶数之和](./src/p2178_maximum_split_of_positive_even_integers.rs) (数学+贪心)
 - [p2235. add two integers 两整数相加](./src/p2235_add_two_integers.rs)
-- [p2352. equal row and column pairs 相等行列对](./src/p2352_equal_row_and_column_pairs.rs) (矩阵+哈希表)
-- [p2500. delete greatest value in each row 删除每行中的最大值](./src/p2500_delete_greatest_value_in_each_row.rs) (矩阵+排序)
 - [p2520. count the digits that divide a number 统计能整除数字的位数](./src/p2520_count_the_digits_that_divide_a_number.rs) (取余)
 - [p2544. alternating digit num 交替数字和](./src/p2544_alternating_digit_sum.rs)
-- [p2545. sort the students by their kth score 根据第 K 场考试的分数排序](./src/p2545_sort_the_students_by_their_kth_score.rs) (矩阵+排序)
 - [p2582. pass the pillow 递枕头](./src/p2582_pass_the_pillow.rs)
 - [p2652. sum multiples 倍数求和](./src/p2652_sum_multiples.rs)
 - [p2656. maximum sum with exactly k elements K个元素的最大和](./src/p2656_maximum_sum_with_exactly_k_elements.rs) (简单题)
+
+### 矩阵
+
+- [p48. rotate image 旋转图像](./src/p48_rotate_image.rs) (矩阵)
+- [p73. set matrix zeros 矩阵置零](./src/p73_set_matrix_zeros.rs) (矩阵)
+- [p74. search a 2d matrix 搜索二维矩阵](./src/p74_search_a_2d_matrix.rs) (矩阵+二分搜索)
+- [p240. search a 2d matrix ii 搜索二维矩阵 II](./src/p240_search_a_2d_matrix_ii.rs) (矩阵、二分搜索)
+- [p2352. equal row and column pairs 相等行列对](./src/p2352_equal_row_and_column_pairs.rs) (矩阵+哈希表)
+- [p2500. delete greatest value in each row 删除每行中的最大值](./src/p2500_delete_greatest_value_in_each_row.rs) (矩阵+排序)
+- [p2545. sort the students by their kth score 根据第 K 场考试的分数排序](./src/p2545_sort_the_students_by_their_kth_score.rs) (矩阵+排序)
 
 ### 位运算
 
