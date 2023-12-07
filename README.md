@@ -49,9 +49,10 @@ Written in `rust`.
 - [p15. 3sum 三数之和](./src/p15_3sum.rs)
 - [p26. remove duplicates from sorted array 删除有序数组中的重复项](./src/p26_remove_duplicates_from_sorted_array.rs)
 - [p27. remove element 移除元素](./src/p27_reomove_element.rs)
-- [p30. substring-with-concatenation-of-all-words 串联所有单词的子串](./src/p30.py)
+- [p30. substring-with-concatenation-of-all-words 串联所有单词的子串](./src/p30.py) (滑移窗口，经典题目)
 - [p56. merge intervals 合并区间](./src/p56_merge_intervals.rs) (排序，区间问题，经典题目)
 - [p57. insert interval 插入区间](./src/p57_insert_interval.rs) (排序，区间问题，经典题目)
+- [p76. minimum-window-substring 最小覆盖子串](./src/p76.py) (滑移窗口，经典题目)
 - [p80. remove duplicates from sorted array ii 删除有序数组中的重复项 II](./src/p80_remove_duplicates_from_sorted_array_ii.rs)
 - [p88. merge sorted array 合并两个有序数组](./src/p88_merge_sorted_array.rs)
 - [p167. two sum ii input array is sorted 两数之和 II 输入有序数组](./src/p167_two_sum_ii_input_array_is_sorted.rs) (经典题目)
@@ -74,7 +75,9 @@ Written in `rust`.
 - [p1456. maximum number of vowels in a substring of given length 定长子串中元音的最大数目](./src/p1456_maximum_number_of_vowels_in_a_substring_of_given_length.rs) (滑移窗口+哈希表)
 - [p2090. k-radius-subarray-averages 半径为 k 的子数组平均值](./src/p2090.py) (滑移窗口)
 - [p2269. find the k beauty of a number 找到一个数字的 K 美丽值](./src/p2269_find_the_k_beauty_of_a_number.rs) (滑移窗口)
+- [p2461. maximum-sum-of-distinct-subarrays-with-length-k 长度为 K 子数组中的最大和](./src/p2461.py)
 - [p2562. find the array concatenation value 找出数组的串联值](./src/p2562_find_the_array_concatenation_value.rs) (双指针+模拟)
+- [p2653. sliding-subarray-beauty 滑动子数组的美丽值](./src/p2653.py)
 - [p2824. count pairs whose sum is less than target 统计和小于目标的下标对数目](./src/p2824_count_pairs_whose_sum_is_less_than_target.py) (排序+双指针)
 
 ## 前缀和、后缀和、差分
