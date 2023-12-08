@@ -1,26 +1,27 @@
 # My leetcode solutions
 
-Written in `rust`.
+Written in `rust` and `python`.
 
 - [My leetcode solutions](#my-leetcode-solutions)
   - [二分查找](#二分查找)
-  - [双指针、滑移窗口](#双指针滑移窗口)
+  - [双指针](#双指针)
+    - [滑移窗口](#滑移窗口)
   - [前缀和、后缀和、差分](#前缀和后缀和差分)
   - [字符串](#字符串)
-  - [栈、队列](#栈队列)
+  - [栈和队列](#栈和队列)
     - [单调栈](#单调栈)
   - [堆](#堆)
-  - [哈希表、哈希集](#哈希表哈希集)
+  - [哈希](#哈希)
   - [链表](#链表)
-  - [数学](#数学)
-    - [矩阵](#矩阵)
-    - [位运算](#位运算)
   - [递归](#递归)
   - [树](#树)
   - [分治](#分治)
   - [动态规划](#动态规划)
   - [贪心](#贪心)
   - [回溯](#回溯)
+  - [数学](#数学)
+    - [矩阵](#矩阵)
+    - [位运算](#位运算)
   - [其他](#其他)
 
 ## 二分查找
@@ -42,17 +43,15 @@ Written in `rust`.
 - [p852. peak index in a mountain array 山脉数组的峰顶索引](./src/p852_peak_index_in_a_mountain_array.rs)
 - [p2300. successful pairs of spells and potions 咒语和药水的成功对数](./src/p2300_successful_pairs_of_spells_and_potions.rs)
 
-## 双指针、滑移窗口
+## 双指针
 
 - [p4. median of two sorted arrays 寻找两个正序数组的中位数](./src/p4_median_of_two_sorted_arrays.rs)
 - [p11. containter with most water 盛最多水的容器](./src/p11_container_with_most_water.rs)
 - [p15. 3sum 三数之和](./src/p15_3sum.rs)
 - [p26. remove duplicates from sorted array 删除有序数组中的重复项](./src/p26_remove_duplicates_from_sorted_array.rs)
 - [p27. remove element 移除元素](./src/p27_reomove_element.rs)
-- [p30. substring-with-concatenation-of-all-words 串联所有单词的子串](./src/p30.py) (滑移窗口，经典题目)
 - [p56. merge intervals 合并区间](./src/p56_merge_intervals.rs) (排序，区间问题，经典题目)
 - [p57. insert interval 插入区间](./src/p57_insert_interval.rs) (排序，区间问题，经典题目)
-- [p76. minimum-window-substring 最小覆盖子串](./src/p76.py) (滑移窗口，经典题目)
 - [p80. remove duplicates from sorted array ii 删除有序数组中的重复项 II](./src/p80_remove_duplicates_from_sorted_array_ii.rs)
 - [p88. merge sorted array 合并两个有序数组](./src/p88_merge_sorted_array.rs)
 - [p167. two sum ii input array is sorted 两数之和 II 输入有序数组](./src/p167_two_sum_ii_input_array_is_sorted.rs) (经典题目)
@@ -61,7 +60,6 @@ Written in `rust`.
 - [p283. move zeros 移动零](./src/p283_move_zeroes.rs)
 - [p438. find all anagrams in a string 找到字符串中所有字母异位词](./src/p438_find_all_anagrams_in_a_string.rs) (哈希表+滑移窗口)
 - [p443. string compression 压缩字符串](./src/p443_string_compression.rs) (双指针+字符串)
-- [p567. permutation-in-string 字符串的排列](./src/p567.py) (滑移窗口)
 - [p633. sum of square numbers 平方数之和](./src/p633_sum_of_square_numbers.rs) (双指针，和p167类似)
 - [p643. maximum average subarray i 子数组最大平均数 I](./src/p643_maximum_average_subarray_i.rs) (滑移窗口)
 - [p680. valid palindrome ii 验证回文串 II](./src/p680_valid_palindrome_ii.rs) (双指针，经典)
@@ -69,16 +67,27 @@ Written in `rust`.
 - [p849. maximize distance to closest person 到最近的人的最大距离](./src/p849_maximize_distance_to_closest_person.rs)
 - [p977. squares of a sorted array 有序数组的平方](./src/p977_squares_of_a_sorted_array.rs)
 - [p986. interval list intersections 区间列表的交集](./src/p986_interval_list_intersections.rs) (双指针，经典题目)
-- [p1052. grumpy-bookstore-owner 爱生气的书店老板](./src/p1052.py) (滑移窗口)
-- [p1343. number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold 大小为 K 且平均值大于等于阈值的子数组数目](./src/p1343.py) (滑移窗口)
-- [p1423. maximum points you can obtain from cards 可获得的最大点数](./src/p1423_maximum_points_you_can_obtain_from_cards.rs) (滑移窗口+前缀和)
 - [p1456. maximum number of vowels in a substring of given length 定长子串中元音的最大数目](./src/p1456_maximum_number_of_vowels_in_a_substring_of_given_length.rs) (滑移窗口+哈希表)
-- [p2090. k-radius-subarray-averages 半径为 k 的子数组平均值](./src/p2090.py) (滑移窗口)
 - [p2269. find the k beauty of a number 找到一个数字的 K 美丽值](./src/p2269_find_the_k_beauty_of_a_number.rs) (滑移窗口)
 - [p2461. maximum-sum-of-distinct-subarrays-with-length-k 长度为 K 子数组中的最大和](./src/p2461.py)
 - [p2562. find the array concatenation value 找出数组的串联值](./src/p2562_find_the_array_concatenation_value.rs) (双指针+模拟)
-- [p2653. sliding-subarray-beauty 滑动子数组的美丽值](./src/p2653.py)
 - [p2824. count pairs whose sum is less than target 统计和小于目标的下标对数目](./src/p2824_count_pairs_whose_sum_is_less_than_target.py) (排序+双指针)
+
+### 滑移窗口
+
+- [p30. 串联所有单词的子串](./src/p30.py) (经典题目)
+- [p76. minimum-window-substring 最小覆盖子串](./src/p76.py) (经典题目)
+- [p217. 存在重复元素](./src/p217.py)
+- [p219. 存在重复元素 II](./src/p219.py)
+- [p567. 字符串的排列](./src/p567.py)
+- [p1052. 爱生气的书店老板](./src/p1052.py)
+- [p1343. 大小为K且平均值大于等于阈值的子数组数目](./src/p1343.py)
+- [p1423. 可获得的最大点数](./src/p1423.rs)
+- [p1984. 学生分数的最小差值](./src/p1984.py)
+- [p2090. 半径为k的子数组平均值](./src/p2090.py)
+- [p2379. 得到K个黑块的最少涂色次数](./src/p2379.py)
+- [p2653. sliding-subarray-beauty 滑动子数组的美丽值](./src/p2653.py)
+- [p2841. 几乎唯一子数组的最大和](./src/p2841.py)
 
 ## 前缀和、后缀和、差分
 
@@ -122,7 +131,7 @@ Written in `rust`.
 - [p2678. number of senior citizens 老人的数目](./src/p2678_number_of_senior_citizens.rs) (字符串parse)
 - [p2828. check if a string is an acronym of words 判别首字母缩略词](./src/p2828_check_if_a_string_is_an_acronym_of_words.rs)
 
-## 栈、队列
+## 栈和队列
 
 - [p20. valid parentheses 有效的括号](./src/p20_valid_parentheses.rs)
 - [p32. longest valid parentheses 最长有效括号](./src/p32_longest_valid_parentheses.rs)
@@ -157,7 +166,7 @@ Written in `rust`.
 - [p2530. maximal score after applying k operations 执行 K 次操作后的最大分数](./src/p2530_maximal_score_after_applying_k_operations.rs) (贪心+大顶堆)
 - [p2558. take gifts from the richest pile 从数量最多的堆取走礼物](./src/p2558_take_gifts_from_the_richest_pile.rs) (大顶堆)
 
-## 哈希表、哈希集
+## 哈希
 
 - [p1. two sum 两数之和](./src/p1_two_sum.rs)
 - [p3. longest substring without repeating characters 无重复字符的最长子串](./src/p3_longest_substring_without_repeating_characters.rs)
@@ -210,6 +219,43 @@ Written in `rust`.
 - [p234. palindrome linked list 回文链表](./src/p234_palindrome_linked_list.py) (双指针)
 - [p876. middle of the linked list 链表的中间节点](./src/p876_middle_of_the_linked_list.py)
 
+## 递归
+
+## 树
+
+- [p104. maximum depth of binary tree 二叉树的最大深度](./src/p104_maximum_depth_of_binary_tree.py) (二叉树+递归)
+- [p1448. count good nodes in binary tree 统计二叉树中好节点的数目](./src/p1448_count_good_nodes_in_binary_tree.py) (二叉树+递归)
+- [p2236. root equals sum of children 判断根结点是否等于子结点之和](./src/p2236_root_equals_sum_of_children.py) (二叉树)
+
+## 分治
+
+- [p50. Pow(x, n)](./src/p50_powx_n.rs)
+
+## 动态规划
+
+- [p53. maximum subarray 最大子数组和](./src/p53_maximum_subarray.rs) (经典题目)
+- [p70. climbing stairs 爬楼梯](./src/p70_climbing_stairs.rs)
+- [p121. best time to buy and sell stock 买卖股票的最佳时机](./src/p121_best_time_to_buy_and_sell_stock.rs)
+- [p509. fibonacci number 斐波那契数](./src/p509_fibonacci_number.rs)
+- [p746. min cost climbing stairs 使用最小花费爬楼梯](./src/p746_min_cost_climbing_stairs.rs)
+
+## 贪心
+
+- [p12. integer to roman 整数转罗马数字](./src/p12_integer_to_roman.rs) (贪心+哈希表)
+- [p122. best time to buy and sell stock ii 买卖股票的最佳时机 II](./src/p122_best_time_to_buy_and_sell_stock_ii.rs) (贪心)
+- [p135. candy 分发糖果](./src/p135_candy.rs)
+- [p406. queue reconstruction by height 根据身高重建队列](./src/p406_queue_reconstruction_by_height.rs) (排序+贪心，经典题目)
+- [p435. non overlapping intervals 无重叠区间](./src/p435_non_overlapping_intervals.rs) (经典)
+- [p452. minimum number of arrows to burst balloons 用最少数量的箭引爆气球](./src/p452_minimum_number_of_arrows_to_burst_balloons.rs) (经典)
+- [p455. assign candy 分发饼干](./src/p455_assign_cookies.rs)
+- [p605. can place flowers 种花问题](./src/p605_can_place_flowers.rs)
+- [p665. non decreasing array 非递减数列](./src/p665_non_decreasing_array.rs) (经典题目)
+- [p763. partition labels 划分字母区间](./src/p763_partition_labels.rs) (贪心+哈希表)
+
+## 回溯
+
+- [p17. letter combinations of a phone number 电话号码的字母组合](./src/p17_letter_combinations_of_a_phone_number.rs) (经典题目)
+
 ## 数学
 
 - [p7. reverse integer 整数反转](./src/p7_reverse_integer.rs)
@@ -249,43 +295,6 @@ Written in `rust`.
 ### 位运算
 
 - [p318. maximum product of word lengths 最大单词长度乘积](./src/p318_maximum_product_of_word_lengths.rs) (位运算)
-
-## 递归
-
-## 树
-
-- [p104. maximum depth of binary tree 二叉树的最大深度](./src/p104_maximum_depth_of_binary_tree.py) (二叉树+递归)
-- [p1448. count good nodes in binary tree 统计二叉树中好节点的数目](./src/p1448_count_good_nodes_in_binary_tree.py) (二叉树+递归)
-- [p2236. root equals sum of children 判断根结点是否等于子结点之和](./src/p2236_root_equals_sum_of_children.py) (二叉树)
-
-## 分治
-
-- [p50. Pow(x, n)](./src/p50_powx_n.rs)
-
-## 动态规划
-
-- [p53. maximum subarray 最大子数组和](./src/p53_maximum_subarray.rs) (经典题目)
-- [p70. climbing stairs 爬楼梯](./src/p70_climbing_stairs.rs)
-- [p121. best time to buy and sell stock 买卖股票的最佳时机](./src/p121_best_time_to_buy_and_sell_stock.rs)
-- [p509. fibonacci number 斐波那契数](./src/p509_fibonacci_number.rs)
-- [p746. min cost climbing stairs 使用最小花费爬楼梯](./src/p746_min_cost_climbing_stairs.rs)
-
-## 贪心
-
-- [p12. integer to roman 整数转罗马数字](./src/p12_integer_to_roman.rs) (贪心+哈希表)
-- [p122. best time to buy and sell stock ii 买卖股票的最佳时机 II](./src/p122_best_time_to_buy_and_sell_stock_ii.rs) (贪心)
-- [p135. candy 分发糖果](./src/p135_candy.rs)
-- [p406. queue reconstruction by height 根据身高重建队列](./src/p406_queue_reconstruction_by_height.rs) (排序+贪心，经典题目)
-- [p435. non overlapping intervals 无重叠区间](./src/p435_non_overlapping_intervals.rs) (经典)
-- [p452. minimum number of arrows to burst balloons 用最少数量的箭引爆气球](./src/p452_minimum_number_of_arrows_to_burst_balloons.rs) (经典)
-- [p455. assign candy 分发饼干](./src/p455_assign_cookies.rs)
-- [p605. can place flowers 种花问题](./src/p605_can_place_flowers.rs)
-- [p665. non decreasing array 非递减数列](./src/p665_non_decreasing_array.rs) (经典题目)
-- [p763. partition labels 划分字母区间](./src/p763_partition_labels.rs) (贪心+哈希表)
-
-## 回溯
-
-- [p17. letter combinations of a phone number 电话号码的字母组合](./src/p17_letter_combinations_of_a_phone_number.rs) (经典题目)
 
 ## 其他
 
