@@ -17,6 +17,7 @@ mod tests {
         assert_eq!(search_range(v3, 0), vec![-1, -1])
     }
 }
+
 #[allow(unused)]
 mod method1 {
     // 尽可能往左找的二分查找，也叫lower_bound
