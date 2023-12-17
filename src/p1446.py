@@ -7,10 +7,13 @@ class Solution1:
     def maxPower(s: str) -> int:
         ans = 0
         l = 0
+        # 维护终点
         for r in range(len(s)):
+            # 维护起点
             if s[r] != s[l]:
                 l = r
-            ans = max(ans, r - l + 1)
+            else:
+                ans = max(ans, r - l + 1)
 
         return ans
 
@@ -35,9 +38,9 @@ class Solution2:
 
 class Test(unittest.TestCase):
     def test(self) -> None:
-        self.assertEqual(Solution2.maxPower("leetcode"), 2)
-        self.assertEqual(Solution2.maxPower("abbcccddddeeeeedcba"), 5)
-        self.assertEqual(Solution2.maxPower("ccbccbb"), 2)
+        self.assertEqual(Solution1.maxPower("leetcode"), 2)
+        self.assertEqual(Solution1.maxPower("abbcccddddeeeeedcba"), 5)
+        self.assertEqual(Solution1.maxPower("ccbccbb"), 2)
 
 
 if __name__ == "__main__":
