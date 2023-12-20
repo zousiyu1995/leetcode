@@ -11,16 +11,10 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
     use std::collections::HashMap;
     let mut map: HashMap<i32, i32> = HashMap::new();
 
-    for (idx, num) in nums.into_iter().enumerate() {
+    for (i, num) in nums.into_iter().enumerate() {
         match map.get(&(target - num)) {
-            // 如果在map里
-            Some(x) => {
-                return vec![*x, idx as i32];
-            }
-            // 如果不在map里，加进去
-            None => {
-                map.insert(num, idx as i32);
-            }
+            Some(&x) => return vec![x, i as i32],
+            None => map.insert(num, i as i32),
         };
     }
 
