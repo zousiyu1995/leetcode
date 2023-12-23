@@ -33,10 +33,11 @@ class Solution2:
     def minGroups(intervals: List[List[int]]) -> int:
         from heapq import heappush, heapreplace
 
-        # 先排序
+        # 有序才能保证贪心是有效的
+        # 先排序，保证了左端点有序
         intervals.sort(key=lambda i: i[0])
 
-        # 堆顶储存最后一个区间的right
+        # 堆顶储存最后一个区间的right，分组时保证右端点有序
         heap = []
         for l, r in intervals:
             # 当前区间的left>最后区间的right，可以分为一组
