@@ -1,9 +1,10 @@
-from typing import List
 import unittest
+from typing import List
 
 
 # https://leetcode.cn/problems/k-radius-subarray-averages/description/
 class Solution:
+    @staticmethod
     def getAverages(nums: List[int], k: int) -> List[int]:
         n = len(nums)
 
@@ -32,11 +33,11 @@ class Test(unittest.TestCase):
             [-1, -1, -1, 5, 4, 4, -1, -1, -1],
         )
         self.assertEqual(
-            Solution.getAverages([1e5], 0),
+            Solution.getAverages([100000], 0),
             [1e5],
         )
         self.assertEqual(
-            Solution.getAverages([8], 1e5),
+            Solution.getAverages([8], 100000),
             [-1],
         )
 
