@@ -1,16 +1,4 @@
-#[test]
-fn test() {
-    let s1: String = String::from("abcabcbb");
-    assert_eq!(length_of_longest_substring(s1), 3);
-
-    let s2: String = String::from("bbbbb");
-    assert_eq!(length_of_longest_substring(s2), 1);
-
-    let s3: String = String::from("pwwkew");
-    assert_eq!(length_of_longest_substring(s3), 3);
-
-    assert_eq!(length_of_longest_substring("".to_string()), 0);
-}
+// https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/
 // 维护窗口，只要窗口里有重复字符，移动窗口直至合法
 // 用哈希集检查是否有重复元素
 pub fn length_of_longest_substring(s: String) -> i32 {
@@ -26,8 +14,22 @@ pub fn length_of_longest_substring(s: String) -> i32 {
             l += 1;
         }
         set.insert(s[r]);
-        ans = (r - l + 1).max(ans);
+        ans = ans.max(r - l + 1);
     }
 
     ans as i32
+}
+
+#[test]
+fn test() {
+    let s1: String = String::from("abcabcbb");
+    assert_eq!(length_of_longest_substring(s1), 3);
+
+    let s2: String = String::from("bbbbb");
+    assert_eq!(length_of_longest_substring(s2), 1);
+
+    let s3: String = String::from("pwwkew");
+    assert_eq!(length_of_longest_substring(s3), 3);
+
+    assert_eq!(length_of_longest_substring("".to_string()), 0);
 }
