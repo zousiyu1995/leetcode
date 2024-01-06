@@ -18,10 +18,10 @@ class Solution:
                 stack.append(i)
 
         # 逆序遍历数组
-        for i in range(n - 1, -1, -1):
+        for j in range(n - 1, -1, -1):
             # 如果栈不是空的，且当前元素>=栈顶元素，代表能形成一个坡，并且这个坡肯定是以左边界为坡底的、最宽的坡
-            while stack and nums[i] >= nums[stack[-1]]:
-                ans = max(ans, i - stack[-1])
+            while stack and nums[j] >= nums[stack[-1]]:
+                ans = max(ans, j - stack[-1])
                 stack.pop()
 
         return ans
