@@ -1,10 +1,4 @@
-#[test]
-fn test() {
-    use method2::largest_rectangle_area;
-
-    assert_eq!(largest_rectangle_area(vec![2, 1, 5, 6, 2, 3]), 10);
-    assert_eq!(largest_rectangle_area(vec![2, 4]), 4);
-}
+// https://leetcode.cn/problems/largest-rectangle-in-histogram/description/
 
 // 对于位置i来说，要形成最大面积，需要向左找第一个小于i的位置left，同时向右找第一个小于i的位置right。最大面积为heights[i] * (right - left - 1)
 // 所以，问题变为如何寻找left和right
@@ -32,7 +26,7 @@ mod method1 {
     }
 }
 
-// 单调栈
+// 单调栈，维护最大栈
 mod method2 {
     pub fn largest_rectangle_area(heights: Vec<i32>) -> i32 {
         // [0, heights, 0]
@@ -56,4 +50,12 @@ mod method2 {
 
         ans
     }
+}
+
+#[test]
+fn test() {
+    use method2::largest_rectangle_area;
+
+    assert_eq!(largest_rectangle_area(vec![2, 1, 5, 6, 2, 3]), 10);
+    assert_eq!(largest_rectangle_area(vec![2, 4]), 4);
 }
