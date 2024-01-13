@@ -1,3 +1,5 @@
+// https://leetcode.cn/problems/next-greater-element-i/description/
+
 #[test]
 fn test() {
     assert_eq!(
