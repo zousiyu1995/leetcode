@@ -1,6 +1,6 @@
 # Definition for singly-linked list.
 class ListNode:
-    def __init__(self, val=0, next=None):
+    def __init__(self, val=0, next=None) -> None:
         self.val = val
         self.next = next
 
@@ -15,7 +15,7 @@ class ListNode:
 
         return " -> ".join(vals)
 
-    def insert(self, val):
+    def insert(self, val) -> None:
         node = ListNode(val, None)
         tail = self
         # 遍历节点直到最后一个
